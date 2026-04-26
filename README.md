@@ -13,6 +13,7 @@ individually.
 | Simple components | [`data/simple-components.json`](./data/simple-components.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
 | Complex components | [`data/complex-components.json`](./data/complex-components.json) | Items crafted in the Assembler 5 m (10 entries) |
 | High-tech components | [`data/high-tech-components.json`](./data/high-tech-components.json) | Items crafted in the Fabricator 10 m (7 entries) |
+| Power cells | [`data/power-cells.json`](./data/power-cells.json) | Swappable battery internals — Power Cell (active), Power Module (disabled) (2 entries) |
 | Character gear | [`data/character-gear.json`](./data/character-gear.json) | Tools, weapons, and consumables crafted in the Gearforge 2.5 m (19 entries) |
 | Blocks — production | [`data/blocks/production.json`](./data/blocks/production.json) | Smelter, Gearforge, Refinery, Assembler, Fabricator (5 entries) |
 | Blocks — power | [`data/blocks/power.json`](./data/blocks/power.json) | Reactors, batteries, solar panels (7 entries) |

@@ -134,7 +134,9 @@
         "capacity": "depends on installed power cells",
         "chargingSlots": 1,
         "preInstalledCells": 4,
-        "preInstalledChargePct": 30
+        "preInstalledChargePct": 30,
+        "capacityPerCell_electricity": 180000,
+        "capacityId": "power_cell"
       },
       "modes": [
         "Auto",
@@ -147,9 +149,7 @@
       },
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_0.5_m",
-      "dataGaps": [
-        "storage.capacity (depends on power cells, not yet modeled)"
-      ]
+      "dataGaps": []
     },
     {
       "id": "battery_1_5_m",
@@ -187,7 +187,9 @@
         "capacity": "depends on installed power cells",
         "chargingSlots": 1,
         "preInstalledCells": 4,
-        "preInstalledChargePct": 30
+        "preInstalledChargePct": 30,
+        "capacityPerCell_electricity": 180000,
+        "capacityId": "power_cell"
       },
       "modes": [
         "Auto",
@@ -198,7 +200,6 @@
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_1.5_m",
       "dataGaps": [
-        "storage.capacity (depends on power cells, not yet modeled)",
         "inventory"
       ]
     },
@@ -238,7 +239,9 @@
         "capacity": "depends on installed power cells",
         "chargingSlots": 4,
         "preInstalledCells": 4,
-        "preInstalledChargePct": 30
+        "preInstalledChargePct": 30,
+        "capacityPerCell_electricity": 180000,
+        "capacityId": "power_cell"
       },
       "modes": [
         "Auto",
@@ -252,9 +255,7 @@
       },
       "unlock": "Verdure sector, 70% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_2.5_m",
-      "dataGaps": [
-        "storage.capacity (depends on power cells, not yet modeled)"
-      ]
+      "dataGaps": []
     },
     {
       "id": "solar_panel_5_m",
