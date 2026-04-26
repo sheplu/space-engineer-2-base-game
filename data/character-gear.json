@@ -1,0 +1,357 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Character_Gear"
+  ],
+  "notes": "Character gear items are crafted in the Gearforge 2.5 m. All entries are non-stackable and non-divisible. Some recipes reference block-category ingredients (pressure_pipe, heavy_duty_plate, combustion_chamber) that are not yet modeled in this repo; they are flagged under dataGaps until the blocks dataset lands.",
+  "resources": [
+    {
+      "id": "drill_mk_1",
+      "displayName": "Drill Mk 1",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 22,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Handheld drill used to quickly mine smaller amounts of ores from planets and asteroids.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "iron", "qty": 2 }, { "id": "nickel", "qty": 2 }, { "id": "silicon", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": ["Drill Mk 2"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Drill_Mk_1",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "drill_mk_2",
+      "displayName": "Drill Mk 2",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 22,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-2 handheld drill, upgraded from the Drill Mk 1.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "drill_mk_1", "qty": 1 }, { "id": "lead_bar", "qty": 2 }, { "id": "metal_grid", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 6 }
+      ],
+      "usedIn": ["Drill Mk 3"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Drill_Mk_2",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "drill_mk_3",
+      "displayName": "Drill Mk 3",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 22,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-3 handheld drill, upgraded from the Drill Mk 2.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "drill_mk_2", "qty": 1 }, { "id": "stainless_steel", "qty": 2 }, { "id": "pressure_pipe", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 8 }
+      ],
+      "usedIn": ["Drill Mk 4"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Drill_Mk_3",
+      "dataGaps": ["volume_liters", "ingredient:pressure_pipe (block, not yet modeled)"]
+    },
+    {
+      "id": "drill_mk_4",
+      "displayName": "Drill Mk 4",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 22,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-4 handheld drill, upgraded from the Drill Mk 3.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "drill_mk_3", "qty": 1 }, { "id": "titanium_sheet", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 3 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Drill_Mk_4",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "grinder_mk_1",
+      "displayName": "Grinder Mk 1",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 3,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Handheld grinder used to deconstruct blocks into components.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "iron", "qty": 2 }, { "id": "nickel", "qty": 2 }, { "id": "silicon", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": ["Grinder Mk 2"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Grinder_Mk_1",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "grinder_mk_2",
+      "displayName": "Grinder Mk 2",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 3,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-2 handheld grinder, upgraded from the Grinder Mk 1.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "grinder_mk_1", "qty": 1 }, { "id": "lead_bar", "qty": 2 }, { "id": "turbine_blades", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 6 }
+      ],
+      "usedIn": ["Grinder Mk 3"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Grinder_Mk_2",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "grinder_mk_3",
+      "displayName": "Grinder Mk 3",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 3,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-3 handheld grinder, upgraded from the Grinder Mk 2.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "grinder_mk_2", "qty": 1 }, { "id": "permanent_magnet", "qty": 2 }, { "id": "heavy_duty_plate", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 8 }
+      ],
+      "usedIn": ["Grinder Mk 4"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Grinder_Mk_3",
+      "dataGaps": ["volume_liters", "ingredient:heavy_duty_plate (block, not yet modeled)"]
+    },
+    {
+      "id": "grinder_mk_4",
+      "displayName": "Grinder Mk 4",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 3,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-4 handheld grinder, upgraded from the Grinder Mk 3.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "grinder_mk_3", "qty": 1 }, { "id": "silver_rod", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 10 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Grinder_Mk_4",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "welder_mk_1",
+      "displayName": "Welder Mk 1",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Handheld welder used to build and repair blocks from components.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "iron", "qty": 2 }, { "id": "nickel", "qty": 2 }, { "id": "silicon", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": ["Welder Mk 2"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Welder_Mk_1",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "welder_mk_2",
+      "displayName": "Welder Mk 2",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-2 handheld welder, upgraded from the Welder Mk 1.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "welder_mk_1", "qty": 1 }, { "id": "lead_bar", "qty": 2 }, { "id": "wire", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 6 }
+      ],
+      "usedIn": ["Welder Mk 3"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Welder_Mk_2",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "welder_mk_3",
+      "displayName": "Welder Mk 3",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-3 handheld welder, upgraded from the Welder Mk 2.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "welder_mk_2", "qty": 1 }, { "id": "magnesium_bar", "qty": 2 }, { "id": "combustion_chamber", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 8 }
+      ],
+      "usedIn": ["Welder Mk 4"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Welder_Mk_3",
+      "dataGaps": ["volume_liters", "ingredient:combustion_chamber (block, not yet modeled)"]
+    },
+    {
+      "id": "welder_mk_4",
+      "displayName": "Welder Mk 4",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Tier-4 handheld welder, upgraded from the Welder Mk 3.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "welder_mk_3", "qty": 1 }, { "id": "platinum_electrode", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 10 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Welder_Mk_4",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "area_welder_mk_1",
+      "displayName": "Area Welder Mk1",
+      "type": "character_gear",
+      "subcategory": "tool",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Welder with the same functionality as the Welder Mk 1 but a larger area of effect, allowing multiple blocks to be welded simultaneously.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "iron", "qty": 2 }, { "id": "gold_thread", "qty": 2 }, { "id": "platinum_electrode", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Area_Welder_Mk1",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "iron_sight_rifle",
+      "displayName": "Iron Sight Rifle",
+      "type": "character_gear",
+      "subcategory": "weapon",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "An automatic character weapon, a rifle with iron sights. Range 400 m, 30-round Rifle Magazine.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "steel_plate", "qty": 2 }, { "id": "steel_tube", "qty": 1 }, { "id": "pressure_pipe", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 5 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Iron_Sight_Rifle",
+      "dataGaps": ["volume_liters", "ingredient:pressure_pipe (block, not yet modeled)"]
+    },
+    {
+      "id": "rocket_launcher",
+      "displayName": "Rocket Launcher",
+      "type": "character_gear",
+      "subcategory": "weapon",
+      "mass_kg": 13,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "A handheld rocket launcher weapon for the character.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "heavy_duty_plate", "qty": 1 }, { "id": "steel_tube", "qty": 1 }, { "id": "pressure_pipe", "qty": 1 }, { "id": "combustion_chamber", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 5 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Rocket_Launcher",
+      "dataGaps": ["volume_liters", "ingredient:heavy_duty_plate (block, not yet modeled)", "ingredient:pressure_pipe (block, not yet modeled)", "ingredient:combustion_chamber (block, not yet modeled)"]
+    },
+    {
+      "id": "jetpack_fuel_tank",
+      "displayName": "Jetpack Fuel Tank",
+      "type": "character_gear",
+      "subcategory": "consumable",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Consumable that replenishes hydrogen for jetpack operation. Auto-activates below 5% and refills to 100%. Usable once every 10 seconds.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "ice", "qty": 1 }, { "id": "iron", "qty": 2 }, { "id": "cobalt", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Jetpack_Fuel_Tank",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "medikit",
+      "displayName": "Medikit",
+      "type": "character_gear",
+      "subcategory": "consumable",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Consumable healing item. Restores 100% health over 5 s (every 0.5 s). Usable once every 10 seconds.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "silicon", "qty": 2 }, { "id": "copper", "qty": 2 }, { "id": "cobalt", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Medikit",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "oxygen_recharge",
+      "displayName": "Oxygen Recharge",
+      "type": "character_gear",
+      "subcategory": "consumable",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Consumable that refills the player suit's oxygen to 100%. Usable once every 10 seconds.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "ice", "qty": 3 }, { "id": "iron", "qty": 2 }, { "id": "copper", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Oxygen_Recharge",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "suit_battery",
+      "displayName": "Suit Battery",
+      "type": "character_gear",
+      "subcategory": "consumable",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Consumable that restores suit energy to 100%. Auto-consumed below ~1.46% energy. Usable once every 10 seconds.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "nickel", "qty": 2 }, { "id": "silicon", "qty": 2 }, { "id": "copper", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Suit_Battery",
+      "dataGaps": ["volume_liters"]
+    }
+  ]
+}
