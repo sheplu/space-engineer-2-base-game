@@ -25,6 +25,7 @@ individually.
 | Blocks — conveyors | [`data/blocks/conveyors.json`](./data/blocks/conveyors.json) | Conveyor pipes, junctions, sorters, adaptors (17 entries) |
 | Blocks — mechanical | [`data/blocks/mechanical.json`](./data/blocks/mechanical.json) | Pistons, rotors, gyroscopes + their heads (11 entries) |
 | Blocks — detection | [`data/blocks/detection.json`](./data/blocks/detection.json) | Antennas, ore detectors (4 entries) |
+| Blocks — docking | [`data/blocks/docking.json`](./data/blocks/docking.json) | Landing Gear, Connectors (4 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function

@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility",
+    "https://spaceengineers2.wiki.gg/wiki/Category:Connector"
+  ],
+  "notes": "Grid-coupling blocks. Landing Gear magnetically latches a grid to any surface (no resource exchange). Connectors pair two connectors of the same or compatible size and bridge power, gas, and items between grids via the conveyor system. Build-component quantities are totals (initial + extra welding phases). All four blocks report power.maxInput=0; almost certainly a wiki omission (electromagnets need power). Connector status indicator colours (yellow=proximity, blue=aligning, green=connected) are captured under connectorStates. Throughput rates are not published.",
+  "resources": [
+    {
+      "id": "landing_gear_1_m",
+      "displayName": "Landing Gear 1 m",
+      "type": "block",
+      "subcategory": "docking",
+      "dockingRole": "landing_gear",
+      "size_m": 1,
+      "mass_kg": 158.15,
+      "health": 506.09,
+      "pcu": 150,
+      "snapSize": 2,
+      "description": "A foot-shaped electromagnetic landing block used to magnetically dock a grid to any surface, or to pull other ships and floating blocks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 7 },
+        { "id": "electronic_parts", "qty": 1 },
+        { "id": "motor", "qty": 2 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "lock": { "autolockToggleable": true, "manualLockUnlock": true },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Landing_Gear_1_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "lock.maxForce_N"]
+    },
+    {
+      "id": "landing_gear_5_m",
+      "displayName": "Landing Gear 5 m",
+      "type": "block",
+      "subcategory": "docking",
+      "dockingRole": "landing_gear",
+      "size_m": 5,
+      "mass_kg": 3390.98,
+      "health": 10851.14,
+      "pcu": 150,
+      "snapSize": 10,
+      "description": "A foot-shaped electromagnetic landing block used to magnetically dock a grid to any surface, or to pull other ships and floating blocks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "electronic_parts", "qty": 1 },
+        { "id": "motor", "qty": 8 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "lock": { "autolockToggleable": true, "manualLockUnlock": true },
+      "unlock": "Kemik sector, 40% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Landing_Gear_5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "lock.maxForce_N", "buildComponents (wiki lists no steel_plate — possible omission vs Landing Gear 1 m)"]
+    },
+    {
+      "id": "connector_0_5_m",
+      "displayName": "Connector 0.5 m",
+      "type": "block",
+      "subcategory": "docking",
+      "dockingRole": "connector",
+      "size_m": 0.5,
+      "mass_kg": 33.1,
+      "health": 26.48,
+      "pcu": 600,
+      "snapSize": 2,
+      "description": "Docks two grids magnetically. Enables power, gas, and item exchange between connected grids via the conveyor system. Unconnected connectors may be configured to eject conveyor items.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "electronic_parts", "qty": 2 },
+        { "id": "construction_component", "qty": 8 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "connectorStates": { "yellow": "proximity", "blue": "auto-aligning", "green": "connected" },
+      "transfers": ["power", "gas", "items"],
+      "inventory": { "maxMass_kg": 4200 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Connector_0.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "throughputRate"]
+    },
+    {
+      "id": "connector_1_5_m",
+      "displayName": "Connector 1.5 m",
+      "type": "block",
+      "subcategory": "docking",
+      "dockingRole": "connector",
+      "size_m": 1.5,
+      "mass_kg": 289.9,
+      "health": 231.92,
+      "pcu": 600,
+      "snapSize": 10,
+      "description": "Docks two grids magnetically. Enables power, gas, and item exchange between connected grids via the conveyor system.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "electronic_parts", "qty": 12 },
+        { "id": "construction_component", "qty": 48 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "connectorStates": { "yellow": "proximity", "blue": "auto-aligning", "green": "connected" },
+      "transfers": ["power", "gas", "items"],
+      "inventory": { "maxMass_kg": 16800 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Connector_1.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "throughputRate"]
+    }
+  ]
+}
