@@ -21,15 +21,27 @@
       "divisible": false,
       "description": "A component used in crafting advanced items.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "iron", "qty": 35 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1
-      },
-      "usedIn": ["Drill Mk 3", "Titanium Blades"],
+      "usedIn": [
+        "Drill Mk 3",
+        "Titanium Blades"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Stainless_Steel",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "iron",
+              "qty": 35
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1
+        }
+      ]
     },
     {
       "id": "magnesium_bar",
@@ -41,15 +53,27 @@
       "divisible": false,
       "description": "A component item used in crafting advanced tools and equipment.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "magnesium", "qty": 25 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1
-      },
-      "usedIn": ["Laser", "Welder Mk 3"],
+      "usedIn": [
+        "Laser",
+        "Welder Mk 3"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Magnesium_Bar",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "magnesium",
+              "qty": 25
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1
+        }
+      ]
     },
     {
       "id": "silver_rod",
@@ -61,15 +85,29 @@
       "divisible": false,
       "description": "A component item used in advanced crafting recipes.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "silver", "qty": 25 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1.2
-      },
-      "usedIn": ["Reactor 7.5 m", "Gravity Core", "Grinder Mk 4", "Ion Accelerator"],
+      "usedIn": [
+        "Reactor 7.5 m",
+        "Gravity Core",
+        "Grinder Mk 4",
+        "Ion Accelerator"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Silver_Rod",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "silver",
+              "qty": 25
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1.2
+        }
+      ]
     },
     {
       "id": "titanium_sheet",
@@ -81,15 +119,30 @@
       "divisible": false,
       "description": "A component used in crafting advanced items and blocks.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "titanium", "qty": 30 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1.2
-      },
-      "usedIn": ["Fabricator 10 m", "Advanced Compressor", "Drill Mk 4", "Titanium Blades", "Ultra-Resistant Plate"],
+      "usedIn": [
+        "Fabricator 10 m",
+        "Advanced Compressor",
+        "Drill Mk 4",
+        "Titanium Blades",
+        "Ultra-Resistant Plate"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Titanium_Sheet",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "titanium",
+              "qty": 30
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1.2
+        }
+      ]
     },
     {
       "id": "platinum_electrode",
@@ -101,15 +154,30 @@
       "divisible": false,
       "description": "A component used in crafting advanced equipment and blocks.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "platinum", "qty": 5 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1.2
-      },
-      "usedIn": ["Fabricator 10 m", "Ion Thruster 5 m", "Ion Thruster 7.5 m", "Welder Mk 4", "Ion Accelerator"],
+      "usedIn": [
+        "Fabricator 10 m",
+        "Ion Thruster 5 m",
+        "Ion Thruster 7.5 m",
+        "Welder Mk 4",
+        "Ion Accelerator"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Platinum_Electrode",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "platinum",
+              "qty": 5
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1.2
+        }
+      ]
     },
     {
       "id": "permanent_magnet",
@@ -121,15 +189,32 @@
       "divisible": false,
       "description": "A component item used in crafting advanced blocks and equipment.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "cobalt", "qty": 10 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1
-      },
-      "usedIn": ["Hydrogen Thruster 2.5 m", "Hydrogen Thruster 7.5 m", "Ore Detector 5 m", "Pistons", "Rotors", "Gravity Core", "Grinder Mk 3"],
+      "usedIn": [
+        "Hydrogen Thruster 2.5 m",
+        "Hydrogen Thruster 7.5 m",
+        "Ore Detector 5 m",
+        "Pistons",
+        "Rotors",
+        "Gravity Core",
+        "Grinder Mk 3"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Permanent_Magnet",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "cobalt",
+              "qty": 10
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1
+        }
+      ]
     },
     {
       "id": "superconductor",
@@ -141,15 +226,27 @@
       "divisible": false,
       "description": "A component used in advanced crafting recipes.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "gold", "qty": 100 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1.2
-      },
-      "usedIn": ["Gravity Core", "Ion Accelerator"],
+      "usedIn": [
+        "Gravity Core",
+        "Ion Accelerator"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Superconductor",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "gold",
+              "qty": 100
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1.2
+        }
+      ]
     },
     {
       "id": "enriched_uranium",
@@ -161,15 +258,26 @@
       "divisible": true,
       "description": "A component used to generate electricity in advanced reactors.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "uranium", "qty": 100 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1.2
-      },
-      "usedIn": ["Reactor 7.5 m"],
+      "usedIn": [
+        "Reactor 7.5 m"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Enriched_Uranium",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "uranium",
+              "qty": 100
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1.2
+        }
+      ]
     },
     {
       "id": "radiation_shielding",
@@ -181,15 +289,26 @@
       "divisible": false,
       "description": "A component utilized in advanced reactor construction.",
       "gameStatus": "active",
-      "recipe": {
-        "producedBy": "Refinery 7.5 m",
-        "ingredients": [{ "id": "lead", "qty": 150 }],
-        "producesQty": 1,
-        "craftingTimeSeconds": 1
-      },
-      "usedIn": ["Reactor 7.5 m"],
+      "usedIn": [
+        "Reactor 7.5 m"
+      ],
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Radiation_Shielding",
-      "dataGaps": ["volume_liters"]
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "recipes": [
+        {
+          "producedBy": "Refinery 7.5 m",
+          "ingredients": [
+            {
+              "id": "lead",
+              "qty": 150
+            }
+          ],
+          "producesQty": 1,
+          "craftingTimeSeconds": 1
+        }
+      ]
     }
   ]
 }

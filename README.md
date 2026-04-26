@@ -10,9 +10,10 @@ individually.
 | --- | --- | --- |
 | Raw resources | [`data/raw-resources.json`](./data/raw-resources.json) | 13 ores + Ice + Stone (15 entries) |
 | Refinery products | [`data/refinery-products.json`](./data/refinery-products.json) | Items crafted from ores in the Refinery 7.5 m (9 entries) |
+| Simple components | [`data/simple-components.json`](./data/simple-components.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
 
-More datasets (simple components, character gear, blocks, blueprints) will be
-added as separate JSON files under `data/`.
+More datasets (character gear, blocks, blueprints) will be added as separate
+JSON files under `data/`.
 
 ## Schema
 
@@ -38,8 +39,9 @@ official data is missing.
 
 Per-record fields for craftable items (refinery products, components, gear):
 `id`, `displayName`, `type`, `mass_kg`, `volume_liters`, `stackable`,
-`divisible`, `description`, `gameStatus`, `recipe`
-(`{ producedBy, ingredients: [{ id, qty }], producesQty, craftingTimeSeconds }`),
+`divisible`, `description`, `gameStatus`, `recipes` (array of
+`{ producedBy, ingredients: [{ id, qty }], producesQty, craftingTimeSeconds }`
+— some items have multiple production paths, e.g. Smelter + Backpack),
 `usedIn` (downstream recipe names), `wiki`, `dataGaps`. Ingredient `id` values
 reference entries in other dataset files (e.g. `raw-resources.json`).
 

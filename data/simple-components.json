@@ -1,0 +1,249 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Simple_Components"
+  ],
+  "notes": "Simple components are produced in the Smelter 2.5 m or via Backpack Building. Every entry has two recipes — same inputs/outputs, different crafting times. Volume per unit is not published on the wiki.",
+  "resources": [
+    {
+      "id": "steel_plate",
+      "displayName": "Steel Plate",
+      "type": "simple_component",
+      "mass_kg": 35,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting numerous blocks and items throughout the game.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "iron", "qty": 35 }], "producesQty": 1, "craftingTimeSeconds": 0.2 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "iron", "qty": 35 }], "producesQty": 1, "craftingTimeSeconds": 0.67 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Steel_Plate",
+      "dataGaps": ["volume_liters", "usedIn"]
+    },
+    {
+      "id": "steel_tube",
+      "displayName": "Steel Tube",
+      "type": "simple_component",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting various blocks and items.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "iron", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 0.2 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "iron", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 0.67 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Steel_Tube",
+      "dataGaps": ["volume_liters", "usedIn"]
+    },
+    {
+      "id": "glass",
+      "displayName": "Glass",
+      "type": "simple_component",
+      "mass_kg": 20,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting cockpits, solar panels, spotlights, and various window blocks.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "silicon", "qty": 20 }], "producesQty": 1, "craftingTimeSeconds": 0.2 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "silicon", "qty": 20 }], "producesQty": 1, "craftingTimeSeconds": 0.67 }
+      ],
+      "usedIn": ["Cockpit 1.5 m", "Solar Panel", "Spotlight", "Window (variants)"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Glass",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "electronic_parts",
+      "displayName": "Electronic Parts",
+      "type": "simple_component",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting various electronic blocks and items.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "silicon", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 0.4 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "silicon", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 1.33 }
+      ],
+      "usedIn": ["Antenna", "Battery", "Assembler", "Cockpit", "Control Seat", "Solar Panel", "Hard Drive", "Motherboard"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Electronic_Parts",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "motor",
+      "displayName": "Motor",
+      "type": "simple_component",
+      "mass_kg": 25,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting various blocks and machinery.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "nickel", "qty": 25 }], "producesQty": 1, "craftingTimeSeconds": 0.4 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "nickel", "qty": 25 }], "producesQty": 1, "craftingTimeSeconds": 1.33 }
+      ],
+      "usedIn": ["Assembler 5 m", "Atmospheric Thruster", "Cargo Container", "Gyroscope", "Rotor"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Motor",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "construction_component",
+      "displayName": "Construction Component",
+      "type": "simple_component",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting various blocks and building elements.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "iron", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 0.2 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "iron", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 0.67 }
+      ],
+      "usedIn": ["Barrel 1.25 m", "Battery 0.5 m", "Cargo Container 1.5 m", "Gyroscope 0.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Construction_Component",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "wire",
+      "displayName": "Wire",
+      "type": "simple_component",
+      "mass_kg": 20,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting various blocks and items.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "copper", "qty": 20 }], "producesQty": 1, "craftingTimeSeconds": 0.5 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "copper", "qty": 20 }], "producesQty": 1, "craftingTimeSeconds": 1.67 }
+      ],
+      "usedIn": ["Battery", "Cargo Container", "Control Seat", "Drill", "Gyroscope", "Thruster", "Reactor", "Smelter", "Solar Panel"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Wire",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "turbine_blades",
+      "displayName": "Turbine Blades",
+      "type": "simple_component",
+      "mass_kg": 10,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced blocks and items.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "nickel", "qty": 10 }], "producesQty": 1, "craftingTimeSeconds": 0.5 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "nickel", "qty": 10 }], "producesQty": 1, "craftingTimeSeconds": 1.67 }
+      ],
+      "usedIn": ["Atmospheric Thruster 2 m", "Hydrogen Tank", "Oxygen Tank", "Generator", "Combustion Chamber", "Grinder", "Pressure Pipe"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Turbine_Blades",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "metal_grid",
+      "displayName": "Metal Grid",
+      "type": "simple_component",
+      "mass_kg": 15,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced blocks and items.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "cobalt", "qty": 15 }], "producesQty": 1, "craftingTimeSeconds": 0.5 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "cobalt", "qty": 15 }], "producesQty": 1, "craftingTimeSeconds": 1.67 }
+      ],
+      "usedIn": ["Gearforge 2.5 m", "Hydrogen Thruster", "Piston Head", "Rotor Head", "Combustion Chamber", "Drill", "Power Module", "Reactor Core", "Rocket"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Metal_Grid",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "magnesium_powder",
+      "displayName": "Magnesium Powder",
+      "type": "simple_component",
+      "mass_kg": 15,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component item used in crafting recipes.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "magnesium", "qty": 15 }], "producesQty": 1, "craftingTimeSeconds": 0.5 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "magnesium", "qty": 15 }], "producesQty": 1, "craftingTimeSeconds": 1.67 }
+      ],
+      "usedIn": ["O2 H2 Generator 5 m", "Rocket"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Magnesium_Powder",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "lead_bar",
+      "displayName": "Lead Bar",
+      "type": "simple_component",
+      "mass_kg": 50,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component item used in crafting various advanced blocks and tools.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "lead", "qty": 50 }], "producesQty": 1, "craftingTimeSeconds": 0.5 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "lead", "qty": 50 }], "producesQty": 1, "craftingTimeSeconds": 1.67 }
+      ],
+      "usedIn": ["Battery", "Hydrogen Tank", "Drill", "Grinder", "Power Module", "Pressure Pipe", "Reactor Core", "Welder"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Lead_Bar",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "gold_thread",
+      "displayName": "Gold Thread",
+      "type": "simple_component",
+      "mass_kg": 5,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component item used in crafting various advanced blocks and devices.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "gold", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 0.7 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "gold", "qty": 5 }], "producesQty": 1, "craftingTimeSeconds": 2.33 }
+      ],
+      "usedIn": ["Antenna", "Thruster", "Welder", "Hard Drive", "Motherboard", "Reactor Core", "Ion Chamber"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Gold_Thread",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "chrome_coating",
+      "displayName": "Chrome Coating",
+      "type": "simple_component",
+      "mass_kg": 15,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced blocks and equipment.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Smelter 2.5 m", "ingredients": [{ "id": "chromium", "qty": 15 }], "producesQty": 1, "craftingTimeSeconds": 0.7 },
+        { "producedBy": "Backpack Building", "ingredients": [{ "id": "chromium", "qty": 15 }], "producesQty": 1, "craftingTimeSeconds": 2.33 }
+      ],
+      "usedIn": ["Hydrogen Tank 12.5 m", "Chemical Synthesizer"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Chrome_Coating",
+      "dataGaps": ["volume_liters"]
+    }
+  ]
+}
