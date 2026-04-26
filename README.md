@@ -27,6 +27,7 @@ individually.
 | Blocks — detection | [`data/blocks/detection.json`](./data/blocks/detection.json) | Antennas, ore detectors (4 entries) |
 | Blocks — docking | [`data/blocks/docking.json`](./data/blocks/docking.json) | Landing Gear, Connectors (4 entries) |
 | Blocks — gravity | [`data/blocks/gravity.json`](./data/blocks/gravity.json) | Gravity Generator 5 m (1 entry) |
+| Blocks — cockpits | [`data/blocks/cockpits.json`](./data/blocks/cockpits.json) | Cockpit, Control Seat, Seat (3 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
