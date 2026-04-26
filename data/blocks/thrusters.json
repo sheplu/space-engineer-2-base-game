@@ -26,13 +26,30 @@
       "description": "Propels a grid in atmospheric environments by consuming electricity.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_tube", "qty": 4 },
-        { "id": "motor", "qty": 3 },
-        { "id": "steel_plate", "qty": 3 }
+        {
+          "id": "steel_tube",
+          "qty": 4
+        },
+        {
+          "id": "motor",
+          "qty": 3
+        },
+        {
+          "id": "steel_plate",
+          "qty": 3
+        }
       ],
-      "power": { "maxInput": 50, "unitAsPublished": "kW" },
-      "thrust": { "max_N": 16273.28 },
-      "efficiency": { "atmosphere": 1, "space": 0 },
+      "power": {
+        "maxInput": 50,
+        "unitAsPublished": "kW"
+      },
+      "thrust": {
+        "max_N": 16273.28
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 0
+      },
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Atmospheric_Thruster_1_m",
       "dataGaps": []
@@ -51,14 +68,34 @@
       "description": "Propels a grid in atmospheric environments by consuming electricity.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_plate", "qty": 11 },
-        { "id": "steel_tube", "qty": 1 },
-        { "id": "motor", "qty": 6 },
-        { "id": "turbine_blades", "qty": 2 }
+        {
+          "id": "steel_plate",
+          "qty": 11
+        },
+        {
+          "id": "steel_tube",
+          "qty": 1
+        },
+        {
+          "id": "motor",
+          "qty": 6
+        },
+        {
+          "id": "turbine_blades",
+          "qty": 2
+        }
       ],
-      "power": { "maxInput": 650, "unitAsPublished": "kW" },
-      "thrust": { "max_N": 287136.3 },
-      "efficiency": { "atmosphere": 1, "space": 0 },
+      "power": {
+        "maxInput": 650,
+        "unitAsPublished": "kW"
+      },
+      "thrust": {
+        "max_N": 287136.3
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 0
+      },
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Atmospheric_Thruster_2_m",
       "dataGaps": []
@@ -77,16 +114,35 @@
       "description": "Propels a grid in atmospheric environments by consuming electricity.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "heavy_duty_plate", "qty": 7 },
-        { "id": "compressor", "qty": 2 },
-        { "id": "combustion_chamber", "qty": 1 }
+        {
+          "id": "heavy_duty_plate",
+          "qty": 7
+        },
+        {
+          "id": "compressor",
+          "qty": 2
+        },
+        {
+          "id": "combustion_chamber",
+          "qty": 1
+        }
       ],
-      "power": { "maxInput": 2400, "unitAsPublished": "kW" },
-      "thrust": { "max_N": 1516380 },
-      "efficiency": { "atmosphere": 1, "space": 0 },
+      "power": {
+        "maxInput": 2400,
+        "unitAsPublished": "kW"
+      },
+      "thrust": {
+        "max_N": 1516380
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 0
+      },
       "unlock": "Kemik sector, 58% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Atmospheric_Thruster_5_m",
-      "dataGaps": ["thrust.max_N (wiki shows '151638 in 10N units' — interpreted as 1,516,380 N)", "buildComponents:heavy_duty_plate/compressor/combustion_chamber (complex components, not yet modeled)"]
+      "dataGaps": [
+        "thrust.max_N (wiki shows '151638 in 10N units' — interpreted as 1,516,380 N)"
+      ]
     },
     {
       "id": "atmospheric_thruster_10_m",
@@ -102,16 +158,35 @@
       "description": "Propels a grid in atmospheric environments by consuming electricity.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "ultra_resistant_plate", "qty": 7 },
-        { "id": "advanced_compressor", "qty": 2 },
-        { "id": "combustion_chamber", "qty": 1 }
+        {
+          "id": "ultra_resistant_plate",
+          "qty": 7
+        },
+        {
+          "id": "advanced_compressor",
+          "qty": 2
+        },
+        {
+          "id": "combustion_chamber",
+          "qty": 1
+        }
       ],
-      "power": { "maxInput": 16000, "unitAsPublished": "kW" },
-      "thrust": { "max_N": 15465370 },
-      "efficiency": { "atmosphere": 1, "space": 0 },
+      "power": {
+        "maxInput": 16000,
+        "unitAsPublished": "kW"
+      },
+      "thrust": {
+        "max_N": 15465370
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 0
+      },
       "unlock": "Kemik sector, 98% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Atmospheric_Thruster_10_m",
-      "dataGaps": ["buildComponents (wiki page shows inconsistent recipe totals — see wiki)", "buildComponents:ultra_resistant_plate/advanced_compressor/combustion_chamber (high-tech/complex components, not yet modeled)"]
+      "dataGaps": [
+        "buildComponents (wiki page shows inconsistent recipe totals — see wiki)"
+      ]
     },
     {
       "id": "ion_thruster_1_m",
@@ -127,16 +202,35 @@
       "description": "Provides propulsion for grids in space by consuming power.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_tube", "qty": 7 },
-        { "id": "wire", "qty": 2 },
-        { "id": "gold_thread", "qty": 1 }
+        {
+          "id": "steel_tube",
+          "qty": 7
+        },
+        {
+          "id": "wire",
+          "qty": 2
+        },
+        {
+          "id": "gold_thread",
+          "qty": 1
+        }
       ],
-      "power": { "maxInput": 40, "unitAsPublished": null },
-      "thrust": { "max_N": 8950.306 },
-      "efficiency": { "atmosphere": 0, "space": 1 },
+      "power": {
+        "maxInput": 40,
+        "unitAsPublished": null
+      },
+      "thrust": {
+        "max_N": 8950.306
+      },
+      "efficiency": {
+        "atmosphere": 0,
+        "space": 1
+      },
       "unlock": "Verdure sector, 55% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Thruster_1_m",
-      "dataGaps": ["power.unitAsPublished (wiki reports '40' with no unit — likely kW given the scale pattern)"]
+      "dataGaps": [
+        "power.unitAsPublished (wiki reports '40' with no unit — likely kW given the scale pattern)"
+      ]
     },
     {
       "id": "ion_thruster_1_5_m",
@@ -152,15 +246,31 @@
       "description": "Provides propulsion for grids in space by consuming power.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_plate", "qty": 7 },
-        { "id": "ion_chamber", "qty": 3 }
+        {
+          "id": "steel_plate",
+          "qty": 7
+        },
+        {
+          "id": "ion_chamber",
+          "qty": 3
+        }
       ],
-      "power": { "maxInput": 240, "unitAsPublished": null },
-      "thrust": { "max_N": 82492.88 },
-      "efficiency": { "atmosphere": 0, "space": 1 },
+      "power": {
+        "maxInput": 240,
+        "unitAsPublished": null
+      },
+      "thrust": {
+        "max_N": 82492.88
+      },
+      "efficiency": {
+        "atmosphere": 0,
+        "space": 1
+      },
       "unlock": "Verdure sector, 55% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Thruster_1.5_m",
-      "dataGaps": ["power.unitAsPublished", "buildComponents:ion_chamber (complex component, not yet modeled)"]
+      "dataGaps": [
+        "power.unitAsPublished"
+      ]
     },
     {
       "id": "ion_thruster_5_m",
@@ -176,15 +286,29 @@
       "description": "Provides propulsion for grids in space by consuming power.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "platinum_electrode", "qty": 2 },
-        { "id": "ion_chamber", "qty": 4 }
+        {
+          "id": "platinum_electrode",
+          "qty": 2
+        },
+        {
+          "id": "ion_chamber",
+          "qty": 4
+        }
       ],
-      "power": { "maxInput": 1800, "unitAsPublished": "kW" },
-      "thrust": { "max_N": 856368.56 },
-      "efficiency": { "atmosphere": 0, "space": 1 },
+      "power": {
+        "maxInput": 1800,
+        "unitAsPublished": "kW"
+      },
+      "thrust": {
+        "max_N": 856368.56
+      },
+      "efficiency": {
+        "atmosphere": 0,
+        "space": 1
+      },
       "unlock": "Kemik sector, 77% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Thruster_5_m",
-      "dataGaps": ["buildComponents:ion_chamber (complex component, not yet modeled)"]
+      "dataGaps": []
     },
     {
       "id": "ion_thruster_7_5_m",
@@ -200,15 +324,32 @@
       "description": "Provides propulsion for grids in space by consuming power.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "platinum_electrode", "qty": 1 },
-        { "id": "ion_accelerator", "qty": 1 }
+        {
+          "id": "platinum_electrode",
+          "qty": 1
+        },
+        {
+          "id": "ion_accelerator",
+          "qty": 1
+        }
       ],
-      "power": { "maxInput": 8000, "unitAsPublished": "W" },
-      "thrust": { "max_N": 5636987 },
-      "efficiency": { "atmosphere": 0, "space": 1 },
+      "power": {
+        "maxInput": 8000,
+        "unitAsPublished": "W"
+      },
+      "thrust": {
+        "max_N": 5636987
+      },
+      "efficiency": {
+        "atmosphere": 0,
+        "space": 1
+      },
       "unlock": "Kemik sector, 99% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Thruster_7.5_m",
-      "dataGaps": ["power.unitAsPublished (wiki says 'W' — scale vs other ion thrusters suggests this is a wiki typo for kW or MW)", "buildComponents:ion_accelerator (high-tech component, not yet modeled)"]
+      "dataGaps": [
+        "power.unitAsPublished (wiki says 'W' — scale vs other ion thrusters suggests this is a wiki typo for kW or MW)",
+        "buildComponents:ion_accelerator (high-tech component, not yet modeled)"
+      ]
     },
     {
       "id": "hydrogen_thruster_0_5_m",
@@ -224,14 +365,28 @@
       "description": "Provides propulsion for grids in atmosphere and space by consuming hydrogen.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_tube", "qty": 7 }
+        {
+          "id": "steel_tube",
+          "qty": 7
+        }
       ],
-      "fuel": { "maxInput": 0.4, "consumes": "hydrogen", "unitAsPublished": null },
-      "thrust": { "max_N": 20035.38 },
-      "efficiency": { "atmosphere": 1, "space": 1 },
+      "fuel": {
+        "maxInput": 0.4,
+        "consumes": "hydrogen",
+        "unitAsPublished": null
+      },
+      "thrust": {
+        "max_N": 20035.38
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 1
+      },
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Thruster_0.5_m",
-      "dataGaps": ["fuel.unitAsPublished (hydrogen gas units — rate per time unit not specified)"]
+      "dataGaps": [
+        "fuel.unitAsPublished (hydrogen gas units — rate per time unit not specified)"
+      ]
     },
     {
       "id": "hydrogen_thruster_2_m",
@@ -247,15 +402,32 @@
       "description": "Provides propulsion for grids in atmosphere and space by consuming hydrogen.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_plate", "qty": 14 },
-        { "id": "steel_tube", "qty": 2 }
+        {
+          "id": "steel_plate",
+          "qty": 14
+        },
+        {
+          "id": "steel_tube",
+          "qty": 2
+        }
       ],
-      "fuel": { "maxInput": 4, "consumes": "hydrogen", "unitAsPublished": null },
-      "thrust": { "max_N": 359468.8 },
-      "efficiency": { "atmosphere": 1, "space": 1 },
+      "fuel": {
+        "maxInput": 4,
+        "consumes": "hydrogen",
+        "unitAsPublished": null
+      },
+      "thrust": {
+        "max_N": 359468.8
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 1
+      },
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Thruster_2_m",
-      "dataGaps": ["fuel.unitAsPublished"]
+      "dataGaps": [
+        "fuel.unitAsPublished"
+      ]
     },
     {
       "id": "hydrogen_thruster_2_5_m",
@@ -271,16 +443,36 @@
       "description": "Provides propulsion for grids in atmosphere and space by consuming hydrogen.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_tube", "qty": 1 },
-        { "id": "permanent_magnet", "qty": 1 },
-        { "id": "combustion_chamber", "qty": 2 }
+        {
+          "id": "steel_tube",
+          "qty": 1
+        },
+        {
+          "id": "permanent_magnet",
+          "qty": 1
+        },
+        {
+          "id": "combustion_chamber",
+          "qty": 2
+        }
       ],
-      "fuel": { "maxInput": 12, "consumes": "hydrogen", "unitAsPublished": null },
-      "thrust": { "max_N": 1895631 },
-      "efficiency": { "atmosphere": 1, "space": 1 },
+      "fuel": {
+        "maxInput": 12,
+        "consumes": "hydrogen",
+        "unitAsPublished": null
+      },
+      "thrust": {
+        "max_N": 1895631
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 1
+      },
       "unlock": "Kemik sector, 20% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Thruster_2.5_m",
-      "dataGaps": ["fuel.unitAsPublished", "buildComponents:combustion_chamber (complex component, not yet modeled)"]
+      "dataGaps": [
+        "fuel.unitAsPublished"
+      ]
     },
     {
       "id": "hydrogen_thruster_7_5_m",
@@ -296,16 +488,36 @@
       "description": "Provides propulsion for grids in atmosphere and space by consuming hydrogen.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "permanent_magnet", "qty": 2 },
-        { "id": "combustion_chamber", "qty": 4 },
-        { "id": "pressure_pipe", "qty": 2 }
+        {
+          "id": "permanent_magnet",
+          "qty": 2
+        },
+        {
+          "id": "combustion_chamber",
+          "qty": 4
+        },
+        {
+          "id": "pressure_pipe",
+          "qty": 2
+        }
       ],
-      "fuel": { "maxInput": 120, "consumes": "hydrogen", "unitAsPublished": null },
-      "thrust": { "max_N": 19395660 },
-      "efficiency": { "atmosphere": 1, "space": 1 },
+      "fuel": {
+        "maxInput": 120,
+        "consumes": "hydrogen",
+        "unitAsPublished": null
+      },
+      "thrust": {
+        "max_N": 19395660
+      },
+      "efficiency": {
+        "atmosphere": 1,
+        "space": 1
+      },
       "unlock": "Kemik sector, 100% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Thruster_7.5_m",
-      "dataGaps": ["fuel.unitAsPublished", "buildComponents:combustion_chamber/pressure_pipe (complex components, not yet modeled)"]
+      "dataGaps": [
+        "fuel.unitAsPublished"
+      ]
     }
   ]
 }
