@@ -1,0 +1,341 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Electricity-producing or electricity-storing blocks only: reactors, batteries, and solar panels. O2/H2 Generators and gas tanks are NOT included here — the generators electrolyse ice into hydrogen/oxygen gas and do not produce electricity; they will live in a future life-support/fuel dataset, and tanks in storage.json. If a hydrogen-to-electricity block (hydrogen engine) is added to SE2 later, it belongs here. Build-component quantities are totals (initial + extra for two-phase welding). Wiki power units are inconsistent — some pages show MW, some just 'electricity', some 'W'; stored values are the raw numbers from the wiki with the unit captured in power.unitAsPublished where available.",
+  "resources": [
+    {
+      "id": "reactor_2_5_m",
+      "displayName": "Reactor 2.5 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "generator",
+      "size_m": 2.5,
+      "mass_kg": 1902.37,
+      "health": 1521.89,
+      "pcu": 50,
+      "snapSize": 10,
+      "description": "Generates high amounts of power for grids by consuming fuel.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "wire",
+          "qty": 1
+        },
+        {
+          "id": "motherboard",
+          "qty": 1
+        },
+        {
+          "id": "reactor_core",
+          "qty": 4
+        }
+      ],
+      "power": {
+        "maxOutput": 19999.9872,
+        "unitAsPublished": null
+      },
+      "fuel": {
+        "consumesId": null,
+        "rate": null
+      },
+      "inventory": {
+        "maxMass_kg": 12000
+      },
+      "unlock": "Verdure sector, 100% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Reactor_2.5_m",
+      "dataGaps": [
+        "power.unitAsPublished",
+        "fuel.consumesId",
+        "fuel.rate",
+        "buildComponents:motherboard/reactor_core (complex components, not yet modeled)"
+      ]
+    },
+    {
+      "id": "reactor_7_5_m",
+      "displayName": "Reactor 7.5 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "generator",
+      "size_m": 7.5,
+      "mass_kg": 13998.92,
+      "health": 11199.14,
+      "pcu": 50,
+      "snapSize": 10,
+      "description": "Generates high amounts of power for grids by consuming fuel.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "silver_rod",
+          "qty": 3
+        },
+        {
+          "id": "radiation_shielding",
+          "qty": 3
+        },
+        {
+          "id": "reactor_core",
+          "qty": 12
+        }
+      ],
+      "power": {
+        "maxOutput": 159999.84,
+        "unitAsPublished": "W"
+      },
+      "fuel": {
+        "consumesId": "enriched_uranium",
+        "rate": null
+      },
+      "inventory": {
+        "maxMass_kg": 64000
+      },
+      "unlock": "Kemik sector, 80% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Reactor_7.5_m",
+      "dataGaps": [
+        "power.unitAsPublished (wiki says 'W' but this may be shorthand for a larger unit — scale vs Reactor 2.5 m suggests MW)",
+        "fuel.rate",
+        "buildComponents:reactor_core (complex component, not yet modeled)"
+      ]
+    },
+    {
+      "id": "battery_0_5_m",
+      "displayName": "Battery 0.5 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "storage",
+      "size_m": 0.5,
+      "mass_kg": 56.09,
+      "health": 44.87,
+      "pcu": 30,
+      "snapSize": 2,
+      "description": "A modular energy storage block with swappable power cells.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "electronic_parts",
+          "qty": 3
+        },
+        {
+          "id": "construction_component",
+          "qty": 7
+        }
+      ],
+      "power": {
+        "maxInput": 199.9,
+        "maxOutput": 200,
+        "unitAsPublished": "MW"
+      },
+      "storage": {
+        "capacity": "depends on installed power cells",
+        "chargingSlots": 1,
+        "preInstalledCells": 4,
+        "preInstalledChargePct": 30
+      },
+      "modes": [
+        "Auto",
+        "Charge",
+        "Discharge"
+      ],
+      "inventory": {
+        "maxMass_kg": 25,
+        "maxStacks": 1
+      },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_0.5_m",
+      "dataGaps": [
+        "storage.capacity (depends on power cells, not yet modeled)"
+      ]
+    },
+    {
+      "id": "battery_1_5_m",
+      "displayName": "Battery 1.5 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "storage",
+      "size_m": 1.5,
+      "mass_kg": 523.01,
+      "health": 418.41,
+      "pcu": 30,
+      "snapSize": 1,
+      "description": "A modular energy storage block with swappable power cells.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "steel_plate",
+          "qty": 14
+        },
+        {
+          "id": "electronic_parts",
+          "qty": 4
+        },
+        {
+          "id": "construction_component",
+          "qty": 2
+        }
+      ],
+      "power": {
+        "maxInput": 1599,
+        "maxOutput": 1600,
+        "unitAsPublished": "MW"
+      },
+      "storage": {
+        "capacity": "depends on installed power cells",
+        "chargingSlots": 1,
+        "preInstalledCells": 4,
+        "preInstalledChargePct": 30
+      },
+      "modes": [
+        "Auto",
+        "Charge",
+        "Discharge"
+      ],
+      "inventory": null,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_1.5_m",
+      "dataGaps": [
+        "storage.capacity (depends on power cells, not yet modeled)",
+        "inventory"
+      ]
+    },
+    {
+      "id": "battery_2_5_m",
+      "displayName": "Battery 2.5 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "storage",
+      "size_m": 2.5,
+      "mass_kg": 1902.37,
+      "health": 1521.89,
+      "pcu": 30,
+      "snapSize": 10,
+      "description": "A modular energy storage block with swappable power cells.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "wire",
+          "qty": 4
+        },
+        {
+          "id": "lead_bar",
+          "qty": 1
+        },
+        {
+          "id": "motherboard",
+          "qty": 1
+        }
+      ],
+      "power": {
+        "maxInput": 9599,
+        "maxOutput": 9600,
+        "unitAsPublished": "MW"
+      },
+      "storage": {
+        "capacity": "depends on installed power cells",
+        "chargingSlots": 4,
+        "preInstalledCells": 4,
+        "preInstalledChargePct": 30
+      },
+      "modes": [
+        "Auto",
+        "Charge",
+        "Discharge"
+      ],
+      "inventory": {
+        "perSlotMass_kg": 250,
+        "slotCount": 4,
+        "maxStacksPerSlot": 1
+      },
+      "unlock": "Verdure sector, 70% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_2.5_m",
+      "dataGaps": [
+        "storage.capacity (depends on power cells, not yet modeled)",
+        "buildComponents:motherboard (complex component, not yet modeled)"
+      ]
+    },
+    {
+      "id": "solar_panel_5_m",
+      "displayName": "Solar Panel 5 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "generator",
+      "size_m": 5,
+      "mass_kg": 577.45,
+      "health": 461.96,
+      "pcu": 50,
+      "snapSize": 2,
+      "description": "Generates power from sunlight, providing a sustainable energy source for grids.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "steel_plate",
+          "qty": 3
+        },
+        {
+          "id": "glass",
+          "qty": 24
+        },
+        {
+          "id": "electronic_parts",
+          "qty": 3
+        }
+      ],
+      "power": {
+        "maxOutput": 500,
+        "unitAsPublished": "W"
+      },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Solar_Panel_5_m",
+      "dataGaps": [
+        "power.unitAsPublished (wiki inconsistency — 500 W is small vs reactor/battery scale)"
+      ]
+    },
+    {
+      "id": "solar_panel_10_m",
+      "displayName": "Solar Panel 10 m",
+      "type": "block",
+      "subcategory": "power",
+      "powerRole": "generator",
+      "size_m": 10,
+      "mass_kg": 2186.09,
+      "health": 1748.87,
+      "pcu": 50,
+      "snapSize": 2,
+      "description": "Generates power from sunlight, providing a sustainable energy source for grids.",
+      "gameStatus": "active",
+      "buildComponents": [
+        {
+          "id": "steel_plate",
+          "qty": 11
+        },
+        {
+          "id": "glass",
+          "qty": 77
+        },
+        {
+          "id": "electronic_parts",
+          "qty": 11
+        },
+        {
+          "id": "wire",
+          "qty": 11
+        }
+      ],
+      "power": {
+        "maxOutput": 4000,
+        "unitAsPublished": null
+      },
+      "unlock": "Verdure sector, 65% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Solar_Panel_10_m",
+      "dataGaps": [
+        "power.unitAsPublished"
+      ]
+    }
+  ]
+}
