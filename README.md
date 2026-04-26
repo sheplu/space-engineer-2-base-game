@@ -9,9 +9,10 @@ individually.
 | Dataset | Path | Contents |
 | --- | --- | --- |
 | Raw resources | [`data/raw-resources.json`](./data/raw-resources.json) | 13 ores + Ice + Stone (15 entries) |
+| Refinery products | [`data/refinery-products.json`](./data/refinery-products.json) | Items crafted from ores in the Refinery 7.5 m (9 entries) |
 
-More datasets (ingots, components, blocks, blueprints) will be added as separate
-JSON files under `data/`.
+More datasets (simple components, character gear, blocks, blueprints) will be
+added as separate JSON files under `data/`.
 
 ## Schema
 
@@ -35,6 +36,13 @@ Per-record fields for raw resources: `id`, `displayName`, `type`
 `wiki` (link to the resource's wiki page), and `dataGaps` listing fields where
 official data is missing.
 
+Per-record fields for craftable items (refinery products, components, gear):
+`id`, `displayName`, `type`, `mass_kg`, `volume_liters`, `stackable`,
+`divisible`, `description`, `gameStatus`, `recipe`
+(`{ producedBy, ingredients: [{ id, qty }], producesQty, craftingTimeSeconds }`),
+`usedIn` (downstream recipe names), `wiki`, `dataGaps`. Ingredient `id` values
+reference entries in other dataset files (e.g. `raw-resources.json`).
+
 Fields with no published value are `null`, and the field name is added to
 `dataGaps` so consumers can detect what is unknown vs. zero.
 
@@ -53,7 +61,7 @@ jq '.resources[] | select(.gameStatus == "active") | .id' data/raw-resources.jso
 ## Source of truth
 
 Primary source: [Space Engineers 2 Wiki](https://spaceengineers2.wiki.gg/).
-Each resource record links its own wiki page under `sources.wiki`.
+Each record links its own wiki page under the `wiki` field.
 
 Data is updated manually when the game or wiki changes. Bump `version` and
 `generatedAt` / `game.dataAsOf` on each update.
