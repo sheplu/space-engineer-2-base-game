@@ -12,12 +12,19 @@ individually.
 | Refinery products | [`data/refinery-products.json`](./data/refinery-products.json) | Items crafted from ores in the Refinery 7.5 m (9 entries) |
 | Simple components | [`data/simple-components.json`](./data/simple-components.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
 | Character gear | [`data/character-gear.json`](./data/character-gear.json) | Tools, weapons, and consumables crafted in the Gearforge 2.5 m (19 entries) |
+| Blocks — production | [`data/blocks/production.json`](./data/blocks/production.json) | Smelter, Gearforge, Refinery, Assembler, Fabricator (5 entries) |
 
-More datasets (blocks, blueprints) will be added as separate JSON files under
-`data/`. Character gear records include a `subcategory` field
-(`"tool" | "weapon" | "consumable"`). A few gear recipes reference block-level
-ingredients (e.g. `pressure_pipe`, `heavy_duty_plate`, `combustion_chamber`)
-that are not yet modeled here; they are listed under each item's `dataGaps`.
+Blocks live under `data/blocks/<subcategory>.json` — split by function
+(production, energy, tools, thrusters, storage, etc.) rather than one
+276-entry file. Block records use a different recipe shape: `buildComponents`
+(on-site welding) instead of `recipes`, plus block-specific fields like
+`size_m`, `pcu`, `snapSize`, `power`, `production`, `inventory`, `unlock`.
+
+Character gear records include a `subcategory` field
+(`"tool" | "weapon" | "consumable"`). A few gear recipes reference complex
+components (`pressure_pipe`, `heavy_duty_plate`, `combustion_chamber`) produced
+by the Assembler 5 m but not yet modeled here; they are listed under each
+item's `dataGaps`.
 
 ## Schema
 
