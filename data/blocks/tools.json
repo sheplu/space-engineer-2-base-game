@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Ship/station-mounted tool blocks: drills, grinders, and welders. These are the grid-scale counterparts to the handheld tools in character-gear.json. Build-component quantities are totals (initial + extra for two-phase welding). Power consumption, operational range, and work rate are not published on the wiki for any of these blocks and are stored as null. The Grinder 4 m and Welder 4 m wiki pages do not list a Steel Plate build component — this appears to be a wiki omission rather than a true data point, and is flagged in dataGaps.",
+  "resources": [
+    {
+      "id": "drill_3_5_m",
+      "displayName": "Drill 3.5 m",
+      "type": "block",
+      "subcategory": "tools",
+      "toolRole": "drill",
+      "size_m": 3.5,
+      "mass_kg": 1311.79,
+      "health": 2098.86,
+      "pcu": 800,
+      "snapSize": 10,
+      "description": "A tool used for mining and harvesting ore from asteroids and planets. Attaches to ships to enable resource extraction via the conveyor system.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 21 },
+        { "id": "wire", "qty": 3 },
+        { "id": "compressor", "qty": 6 }
+      ],
+      "power": { "maxInput": null, "unitAsPublished": null },
+      "operation": { "range_m": null, "rate": null },
+      "inventory": { "maxMass_kg": 16800 },
+      "unlock": "Verdure sector, 15% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Drill_3.5_m",
+      "dataGaps": ["power.maxInput", "operation.range_m", "operation.rate", "buildComponents:compressor (complex component, not yet modeled)"]
+    },
+    {
+      "id": "drill_5_25_m",
+      "displayName": "Drill 5.25 m",
+      "type": "block",
+      "subcategory": "tools",
+      "toolRole": "drill",
+      "size_m": 5.25,
+      "mass_kg": 3289.09,
+      "health": 5262.54,
+      "pcu": 800,
+      "snapSize": 10,
+      "description": "A tool used for mining and harvesting ore from asteroids and planets. Attaches to ships to enable resource extraction via the conveyor system.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 49 },
+        { "id": "wire", "qty": 7 },
+        { "id": "compressor", "qty": 14 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "operation": { "range_m": null, "rate": null },
+      "inventory": { "maxMass_kg": 67200 },
+      "unlock": "Kemik sector, 79% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Drill_5.25_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "operation.range_m", "operation.rate", "buildComponents:compressor (complex component, not yet modeled)"]
+    },
+    {
+      "id": "grinder_3_5_m",
+      "displayName": "Grinder 3.5 m",
+      "type": "block",
+      "subcategory": "tools",
+      "toolRole": "grinder",
+      "size_m": 3.5,
+      "mass_kg": 1127.34,
+      "health": 901.87,
+      "pcu": 200,
+      "snapSize": 10,
+      "description": "Used to deconstruct blocks and salvage materials from them on a large scale.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 18 },
+        { "id": "steel_tube", "qty": 3 },
+        { "id": "motor", "qty": 6 },
+        { "id": "compressor", "qty": 3 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "operation": { "range_m": null, "rate": null },
+      "inventory": { "maxMass_kg": 16800 },
+      "unlock": "Verdure sector, 15% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Grinder_3.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "operation.range_m", "operation.rate", "buildComponents:compressor (complex component, not yet modeled)"]
+    },
+    {
+      "id": "grinder_4_m",
+      "displayName": "Grinder 4 m",
+      "type": "block",
+      "subcategory": "tools",
+      "toolRole": "grinder",
+      "size_m": 4,
+      "mass_kg": 2335.67,
+      "health": 1868.53,
+      "pcu": 200,
+      "snapSize": 10,
+      "description": "Used to deconstruct blocks and salvage materials from them on a large scale.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 3 },
+        { "id": "motor", "qty": 6 },
+        { "id": "compressor", "qty": 3 }
+      ],
+      "power": { "maxInput": null, "unitAsPublished": null },
+      "operation": { "range_m": null, "rate": null },
+      "inventory": { "maxMass_kg": 67200 },
+      "unlock": "Kemik sector, 79% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Grinder_4_m",
+      "dataGaps": ["power.maxInput", "operation.range_m", "operation.rate", "buildComponents (wiki listing may be incomplete — no steel_plate listed despite being the larger tier of Grinder 3.5 m)", "buildComponents:compressor (complex component, not yet modeled)"]
+    },
+    {
+      "id": "welder_3_5_m",
+      "displayName": "Welder 3.5 m",
+      "type": "block",
+      "subcategory": "tools",
+      "toolRole": "welder",
+      "size_m": 3.5,
+      "mass_kg": 1100.55,
+      "health": 880.44,
+      "pcu": 300,
+      "snapSize": 10,
+      "description": "Used to build and repair blocks on a large scale.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 18 },
+        { "id": "gold_thread", "qty": 3 },
+        { "id": "compressor", "qty": 3 },
+        { "id": "ion_chamber", "qty": 6 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "operation": { "range_m": null, "rate": null },
+      "inventory": { "maxMass_kg": 16800 },
+      "unlock": "Verdure sector, 15% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Welder_3.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "operation.range_m", "operation.rate", "buildComponents:compressor/ion_chamber (complex components, not yet modeled)"]
+    },
+    {
+      "id": "welder_4_m",
+      "displayName": "Welder 4 m",
+      "type": "block",
+      "subcategory": "tools",
+      "toolRole": "welder",
+      "size_m": 4,
+      "mass_kg": 2423.2,
+      "health": 1938.56,
+      "pcu": 300,
+      "snapSize": 10,
+      "description": "Used to build and repair blocks on a large scale.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "gold_thread", "qty": 3 },
+        { "id": "compressor", "qty": 3 },
+        { "id": "ion_chamber", "qty": 6 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "operation": { "range_m": null, "rate": null },
+      "inventory": { "maxMass_kg": 67200 },
+      "unlock": "Kemik sector, 79% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Welder_4_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "operation.range_m", "operation.rate", "buildComponents (wiki listing may be incomplete — no steel_plate listed despite being the larger tier of Welder 3.5 m)", "buildComponents:compressor/ion_chamber (complex components, not yet modeled)"]
+    }
+  ]
+}

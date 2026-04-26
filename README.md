@@ -14,6 +14,7 @@ individually.
 | Character gear | [`data/character-gear.json`](./data/character-gear.json) | Tools, weapons, and consumables crafted in the Gearforge 2.5 m (19 entries) |
 | Blocks — production | [`data/blocks/production.json`](./data/blocks/production.json) | Smelter, Gearforge, Refinery, Assembler, Fabricator (5 entries) |
 | Blocks — power | [`data/blocks/power.json`](./data/blocks/power.json) | Reactors, batteries, solar panels (7 entries) |
+| Blocks — tools | [`data/blocks/tools.json`](./data/blocks/tools.json) | Ship-mounted drills, grinders, welders (6 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
 (production, energy, tools, thrusters, storage, etc.) rather than one
