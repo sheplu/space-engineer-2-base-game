@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Interior furniture blocks. Both entries are currently non-functional placeholders — the wiki explicitly states 'This block does not have any functionality yet. It will be added in a later vertical slice.' — so both are gameStatus='planned'. Locker 2 m (storage) and the cockpit/seat blocks live in their own files (storage.json, cockpits.json).",
+  "resources": [
+    {
+      "id": "bed_2_m",
+      "displayName": "Bed 2 m",
+      "type": "block",
+      "subcategory": "furniture",
+      "furnitureRole": "bed",
+      "size_m": 2,
+      "mass_kg": 267.24,
+      "health": 267.24,
+      "pcu": 30,
+      "snapSize": 1,
+      "description": "Bed block. Placeholder — functionality not yet implemented in the current vertical slice.",
+      "gameStatus": "planned",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 7 },
+        { "id": "electronic_parts", "qty": 1 },
+        { "id": "construction_component", "qty": 2 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Bed_2_m",
+      "dataGaps": ["functionality (wiki: 'does not have any functionality yet; will be added in a later vertical slice')"]
+    },
+    {
+      "id": "toilet_1_m",
+      "displayName": "Toilet 1 m",
+      "type": "block",
+      "subcategory": "furniture",
+      "furnitureRole": "toilet",
+      "size_m": 1,
+      "mass_kg": 38.72,
+      "health": 30.97,
+      "pcu": 30,
+      "snapSize": 1,
+      "description": "Toilet block. Placeholder — functionality not yet implemented in the current vertical slice.",
+      "gameStatus": "planned",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 5 },
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Toilet_1_m",
+      "dataGaps": ["functionality (wiki: 'does not have any functionality yet; will be added in a later vertical slice')"]
+    }
+  ]
+}
