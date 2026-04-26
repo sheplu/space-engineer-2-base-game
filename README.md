@@ -32,6 +32,7 @@ individually.
 | Blocks — life support | [`data/blocks/life-support.json`](./data/blocks/life-support.json) | Survival Kit, Medical Room (3 entries) |
 | Blocks — controls | [`data/blocks/controls.json`](./data/blocks/controls.json) | Button, Button Panel (2 entries, all planned) |
 | Blocks — terminals | [`data/blocks/terminals.json`](./data/blocks/terminals.json) | Contract Terminal, Trade Terminal (2 entries) |
+| Blocks — doors | [`data/blocks/doors.json`](./data/blocks/doors.json) | Narrow Sliding Door (1 entry) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
