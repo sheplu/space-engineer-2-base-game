@@ -304,8 +304,7 @@
       "unlock": "Kemik sector, 78% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Fabricator_10_m",
       "dataGaps": [
-        "power.unit",
-        "production.producesIds (all 7 are high-tech components, not yet modeled)"
+        "power.unit"
       ]
     }
   ]
