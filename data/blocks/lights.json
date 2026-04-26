@@ -1,0 +1,125 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility",
+    "https://spaceengineers2.wiki.gg/wiki/Category:Corner_Light"
+  ],
+  "notes": "Lighting blocks. Interior Light and Corner Light emit a point light; Spotlights emit a cone. Color and brightness are configurable from the control panel on all light blocks. The 'Spotlight' block (no size) is a stub page on the wiki marked WIP (work-in-progress) — modeled as gameStatus='planned'. All lights report power.maxInput=0 on the wiki (almost certainly a wiki omission).",
+  "resources": [
+    {
+      "id": "interior_light_0_5_m",
+      "displayName": "Interior Light 0.5 m",
+      "type": "block",
+      "subcategory": "lights",
+      "lightRole": "interior",
+      "size_m": 0.5,
+      "mass_kg": 9.68,
+      "health": 7.75,
+      "pcu": 80,
+      "snapSize": 1,
+      "description": "Provides lighting, enhancing visibility of the surroundings.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 10 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "light": { "shape": "point", "maxBrightness": 100, "colorConfigurable": true, "brightnessConfigurable": true },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Interior_Light_0.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "corner_light_0_5_m",
+      "displayName": "Corner Light 0.5 m",
+      "type": "block",
+      "subcategory": "lights",
+      "lightRole": "corner",
+      "size_m": 0.5,
+      "mass_kg": 9.68,
+      "health": 7.75,
+      "pcu": 80,
+      "snapSize": 1,
+      "description": "Provides lighting in a corner-mount configuration, enhancing visibility of the surroundings.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 10 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "light": { "shape": "point", "maxBrightness": 100, "colorConfigurable": true, "brightnessConfigurable": true },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Corner_Light_0.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "spotlight_0_5_m",
+      "displayName": "Spotlight 0.5 m",
+      "type": "block",
+      "subcategory": "lights",
+      "lightRole": "spotlight",
+      "size_m": 0.5,
+      "mass_kg": 33.1,
+      "health": 26.48,
+      "pcu": 100,
+      "snapSize": 2,
+      "description": "Provides focused, directional lighting, useful for illuminating large areas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 10 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "light": { "shape": "cone", "maxBrightness": 400, "coneRadius_m": 0.4, "colorConfigurable": true, "brightnessConfigurable": true },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Spotlight_0.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "spotlight_2_5_m",
+      "displayName": "Spotlight 2.5 m",
+      "type": "block",
+      "subcategory": "lights",
+      "lightRole": "spotlight",
+      "size_m": 2.5,
+      "mass_kg": 908.23,
+      "health": 726.58,
+      "pcu": 100,
+      "snapSize": 10,
+      "description": "Provides focused, directional lighting, useful for illuminating large areas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 42 },
+        { "id": "construction_component", "qty": 18 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "light": { "shape": "cone", "maxBrightness": 700, "coneRadius_m": 1.6, "colorConfigurable": true, "brightnessConfigurable": true },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Spotlight_2.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "spotlight_generic",
+      "displayName": "Spotlight",
+      "type": "block",
+      "subcategory": "lights",
+      "lightRole": "spotlight",
+      "size_m": null,
+      "mass_kg": null,
+      "health": null,
+      "pcu": null,
+      "snapSize": null,
+      "description": "Use this block as a light source on a ship or in a base. Color and brightness are configurable via the control panel.",
+      "gameStatus": "planned",
+      "buildComponents": [],
+      "power": { "maxInput": null, "unitAsPublished": null },
+      "light": { "colorConfigurable": true, "brightnessConfigurable": true },
+      "unlock": null,
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Spotlight",
+      "dataGaps": ["size_m", "mass_kg", "health", "pcu", "snapSize", "buildComponents", "power.maxInput", "light.shape", "light.maxBrightness", "light.coneRadius_m", "unlock", "wiki page marked WIP (work-in-progress) — most fields unpublished"]
+    }
+  ]
+}
