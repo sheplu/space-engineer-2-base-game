@@ -16,6 +16,7 @@ individually.
 | Blocks — power | [`data/blocks/power.json`](./data/blocks/power.json) | Reactors, batteries, solar panels (7 entries) |
 | Blocks — tools | [`data/blocks/tools.json`](./data/blocks/tools.json) | Ship-mounted drills, grinders, welders (6 entries) |
 | Blocks — thrusters | [`data/blocks/thrusters.json`](./data/blocks/thrusters.json) | Atmospheric, ion, and hydrogen thrusters (12 entries) |
+| Blocks — storage | [`data/blocks/storage.json`](./data/blocks/storage.json) | Cargo containers, hydrogen/oxygen tanks, locker/crate/barrel (10 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
 (production, energy, tools, thrusters, storage, etc.) rather than one
