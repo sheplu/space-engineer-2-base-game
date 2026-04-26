@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Input/trigger blocks. Both entries are currently placeholders in the Early Access vertical slice — the wiki explicitly says 'This block does not have any functionality yet. It will be added in a later vertical slice.' — so they are modeled with gameStatus='planned'. Cockpits, seats, and control seats live in blocks/cockpits.json. Terminals (Contract, Trade) and doors are intentionally not in this file yet.",
+  "resources": [
+    {
+      "id": "button_0_25_m",
+      "displayName": "Button 0.25 m",
+      "type": "block",
+      "subcategory": "controls",
+      "controlRole": "button",
+      "size_m": 0.25,
+      "mass_kg": 5,
+      "health": 4,
+      "pcu": 15,
+      "snapSize": 1,
+      "description": "Single-input button block. Placeholder — functionality not yet implemented in the current vertical slice.",
+      "gameStatus": "planned",
+      "buildComponents": [
+        { "id": "electronic_parts", "qty": 1 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Button_0.25_m",
+      "dataGaps": ["functionality (wiki: 'does not have any functionality yet; will be added in a later vertical slice')"]
+    },
+    {
+      "id": "button_panel_2_5_m",
+      "displayName": "Button Panel 2.5 m",
+      "type": "block",
+      "subcategory": "controls",
+      "controlRole": "button_panel",
+      "size_m": 2.5,
+      "mass_kg": 207.65,
+      "health": 166.12,
+      "pcu": 15,
+      "snapSize": 1,
+      "description": "Multi-button control panel. Placeholder — functionality not yet implemented in the current vertical slice.",
+      "gameStatus": "planned",
+      "buildComponents": [
+        { "id": "electronic_parts", "qty": 16 },
+        { "id": "construction_component", "qty": 24 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Button_Panel_2.5_m",
+      "dataGaps": ["buttonCount", "functionality (wiki: 'does not have any functionality yet; will be added in a later vertical slice')"]
+    }
+  ]
+}
