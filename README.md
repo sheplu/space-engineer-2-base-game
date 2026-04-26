@@ -17,6 +17,8 @@ individually.
 | Blocks — tools | [`data/blocks/tools.json`](./data/blocks/tools.json) | Ship-mounted drills, grinders, welders (6 entries) |
 | Blocks — thrusters | [`data/blocks/thrusters.json`](./data/blocks/thrusters.json) | Atmospheric, ion, and hydrogen thrusters (12 entries) |
 | Blocks — storage | [`data/blocks/storage.json`](./data/blocks/storage.json) | Cargo containers, hydrogen/oxygen tanks, locker/crate/barrel (10 entries) |
+| Blocks — weapons | [`data/blocks/weapons.json`](./data/blocks/weapons.json) | Gatling Cannon, Gatling Turret (2 entries) |
+| Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
 (production, energy, tools, thrusters, storage, etc.) rather than one
