@@ -11,9 +11,13 @@ individually.
 | Raw resources | [`data/raw-resources.json`](./data/raw-resources.json) | 13 ores + Ice + Stone (15 entries) |
 | Refinery products | [`data/refinery-products.json`](./data/refinery-products.json) | Items crafted from ores in the Refinery 7.5 m (9 entries) |
 | Simple components | [`data/simple-components.json`](./data/simple-components.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
+| Character gear | [`data/character-gear.json`](./data/character-gear.json) | Tools, weapons, and consumables crafted in the Gearforge 2.5 m (19 entries) |
 
-More datasets (character gear, blocks, blueprints) will be added as separate
-JSON files under `data/`.
+More datasets (blocks, blueprints) will be added as separate JSON files under
+`data/`. Character gear records include a `subcategory` field
+(`"tool" | "weapon" | "consumable"`). A few gear recipes reference block-level
+ingredients (e.g. `pressure_pipe`, `heavy_duty_plate`, `combustion_chamber`)
+that are not yet modeled here; they are listed under each item's `dataGaps`.
 
 ## Schema
 
