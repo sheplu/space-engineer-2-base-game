@@ -21,6 +21,7 @@ individually.
 | Blocks — storage | [`data/blocks/storage.json`](./data/blocks/storage.json) | Cargo containers, hydrogen/oxygen tanks, locker/crate/barrel (10 entries) |
 | Blocks — weapons | [`data/blocks/weapons.json`](./data/blocks/weapons.json) | Gatling Cannon, Gatling Turret (2 entries) |
 | Blocks — gas production | [`data/blocks/gas-production.json`](./data/blocks/gas-production.json) | O2/H2 Generators (2 entries) |
+| Blocks — conveyors | [`data/blocks/conveyors.json`](./data/blocks/conveyors.json) | Conveyor pipes, junctions, sorters, adaptors (17 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function

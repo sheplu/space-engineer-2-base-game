@@ -1,0 +1,384 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Conveyor"
+  ],
+  "notes": "Conveyor blocks transport items and resources between connected inventories. Every conveyor has a `conveyorShape` (straight/curved/junction/sorter/slice/adaptor/short) and a `portCount` indicating connection geometry. All 17 variants are unlocked by default. The two Sorter variants are modeled with `gameStatus: 'planned'` because the wiki explicitly notes: 'This block does not have any functionality yet. It will be added in a later vertical slice.' Build-component quantities are totals (initial + extra welding phases). Adaptors translate between 0.5 m (small) and 2.5 m (large) port sizes.",
+  "resources": [
+    {
+      "id": "conveyor_straight_0_5_m",
+      "displayName": "Conveyor Straight 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "straight",
+      "size_m": 0.5,
+      "mass_kg": 22.88,
+      "health": 18.3,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Transports items and resources between connected inventories and blocks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Straight_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_straight_2_5_m",
+      "displayName": "Conveyor Straight 2.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "straight",
+      "size_m": 2.5,
+      "mass_kg": 344.52,
+      "health": 275.61,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Transports items and resources between connected inventories and blocks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Straight_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_curved_0_5_m",
+      "displayName": "Conveyor Curved 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "curved",
+      "size_m": 0.5,
+      "mass_kg": 22.88,
+      "health": 18.3,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Transports items and resources between connected inventories and blocks. Ports are adjacent (90° turn).",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Curved_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_curved_2_m",
+      "displayName": "Conveyor Curved 2 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "curved",
+      "size_m": 2,
+      "mass_kg": 344.52,
+      "health": 275.61,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Transports items and resources between connected inventories and blocks. Ports are adjacent (90° turn).",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Curved_2_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_t_junction_0_5_m",
+      "displayName": "Conveyor T-Junction 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "t_junction",
+      "size_m": 0.5,
+      "mass_kg": 22.88,
+      "health": 18.3,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "T-shaped conveyor junction for branching conveyor networks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 3,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_T-Junction_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_t_junction_2_5_m",
+      "displayName": "Conveyor T-Junction 2.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "t_junction",
+      "size_m": 2.5,
+      "mass_kg": 388.44,
+      "health": 310.75,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "T-shaped conveyor junction for branching conveyor networks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 3,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_T-Junction_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_cross_junction_0_5_m",
+      "displayName": "Conveyor Cross Junction 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "cross_junction",
+      "size_m": 0.5,
+      "mass_kg": 22.88,
+      "health": 18.3,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Cross-shaped conveyor junction with four ports.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 4,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Cross_Junction_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_cross_junction_2_5_m",
+      "displayName": "Conveyor Cross Junction 2.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "cross_junction",
+      "size_m": 2.5,
+      "mass_kg": 429.69,
+      "health": 343.75,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Cross-shaped conveyor junction with four ports.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 4,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Cross_Junction_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_node_junction_0_5_m",
+      "displayName": "Conveyor Node Junction 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "node_junction",
+      "size_m": 0.5,
+      "mass_kg": 22.88,
+      "health": 18.3,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Six-port conveyor junction that connects in all directions.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 6,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Node_Junction_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_node_junction_2_5_m",
+      "displayName": "Conveyor Node Junction 2.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "node_junction",
+      "size_m": 2.5,
+      "mass_kg": 669.08,
+      "health": 535.26,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Six-port conveyor junction that connects in all directions.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 16 },
+        { "id": "steel_tube", "qty": 4 }
+      ],
+      "portCount": 6,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Node_Junction_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_sorter_0_5_m",
+      "displayName": "Conveyor Sorter 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "sorter",
+      "size_m": 0.5,
+      "mass_kg": 33.1,
+      "health": 26.48,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Two-port conveyor sorter, intended to filter and route items through a conveyor network.",
+      "gameStatus": "planned",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 2,
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Sorter_0.5_m",
+      "dataGaps": ["filter behavior (wiki: 'does not have any functionality yet; will be added in a later vertical slice')"]
+    },
+    {
+      "id": "conveyor_sorter_1_5_m",
+      "displayName": "Conveyor Sorter 1.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "sorter",
+      "size_m": 1.5,
+      "mass_kg": 382.4,
+      "health": 305.92,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Two-port conveyor sorter, intended to filter and route items through a conveyor network.",
+      "gameStatus": "planned",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Sorter_1.5_m",
+      "dataGaps": ["filter behavior (wiki: 'does not have any functionality yet; will be added in a later vertical slice')"]
+    },
+    {
+      "id": "conveyor_slice_0_5_m",
+      "displayName": "Conveyor Slice 0.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "slice",
+      "size_m": 0.5,
+      "mass_kg": 13.43,
+      "health": 10.74,
+      "pcu": 60,
+      "snapSize": 1,
+      "description": "Slim two-port conveyor used to bridge narrow gaps between blocks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 5 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Slice_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_slice_1_5_m",
+      "displayName": "Conveyor Slice 1.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "slice",
+      "size_m": 1.5,
+      "mass_kg": 70.36,
+      "health": 56.29,
+      "pcu": 60,
+      "snapSize": 1,
+      "description": "Slim two-port conveyor used to bridge narrow gaps between blocks.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Slice_1.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_adaptor_end_1_5_m",
+      "displayName": "Conveyor Adaptor End 1.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "adaptor_end",
+      "size_m": 1.5,
+      "mass_kg": 115.32,
+      "health": 92.26,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Adaptor that translates between small (0.5 m) and large (2.5 m) conveyor ports; end-cap configuration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Adaptor_End_1.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_adaptor_straight_2_5_m",
+      "displayName": "Conveyor Adaptor Straight 2.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "adaptor_straight",
+      "size_m": 2.5,
+      "mass_kg": 344.52,
+      "health": 275.61,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Adaptor that translates between small (0.5 m) and large (2.5 m) conveyor ports; inline configuration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Adaptor_Straight_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "conveyor_short_1_5_m",
+      "displayName": "Conveyor Short 1.5 m",
+      "type": "block",
+      "subcategory": "conveyors",
+      "conveyorShape": "short",
+      "size_m": 1.5,
+      "mass_kg": 115.32,
+      "health": 92.26,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Short two-port conveyor for compact runs.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 8 },
+        { "id": "steel_tube", "qty": 2 }
+      ],
+      "portCount": 2,
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Conveyor_Short_1.5_m",
+      "dataGaps": []
+    }
+  ]
+}
