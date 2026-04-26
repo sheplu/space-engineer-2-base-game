@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Power_Cell",
+    "https://spaceengineers2.wiki.gg/wiki/Power_Module"
+  ],
+  "notes": "Swappable energy-storage items that live inside battery blocks. Power Cell is not directly craftable — it comes pre-installed in Battery blocks (the wiki explicitly says 'Build a battery block instead'). Power Module is listed in game data but is flagged as disabled / not obtainable in normal gameplay, similar to Stone in raw-resources.json. Capacity values are stored as the raw wiki numbers; the wiki uses the unit 'electricity' without explicitly annotating kWh/MWh, so capacity.unitAsPublished is 'electricity'.",
+  "resources": [
+    {
+      "id": "power_cell",
+      "displayName": "Power Cell",
+      "type": "power_cell",
+      "mass_kg": 25,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "The swappable part of battery blocks.",
+      "gameStatus": "active",
+      "capacity": { "value": 180000, "unitAsPublished": "electricity" },
+      "producedBy": "Built into battery blocks (not directly craftable)",
+      "usedIn": ["Battery 0.5 m", "Battery 1.5 m", "Battery 2.5 m", "Power Module (disabled)"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Power_Cell",
+      "dataGaps": ["volume_liters", "capacity.unitAsPublished (wiki just says 'electricity' — no kWh/MWh annotation)"]
+    },
+    {
+      "id": "power_module",
+      "displayName": "Power Module",
+      "type": "power_cell",
+      "mass_kg": 250,
+      "volume_liters": null,
+      "stackable": false,
+      "divisible": false,
+      "description": "Electrical storage device with capacity 3,600,000 electricity units. Present in game data but not obtainable in normal gameplay.",
+      "gameStatus": "disabled",
+      "capacity": { "value": 3600000, "unitAsPublished": "electricity" },
+      "producedBy": null,
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Power_Module",
+      "dataGaps": ["volume_liters", "capacity.unitAsPublished", "producedBy (wiki: 'This item can not be obtained in normal gameplay')"]
+    }
+  ]
+}
