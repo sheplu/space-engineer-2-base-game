@@ -1,0 +1,720 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Ores"
+  ],
+  "notes": "Raw resources are items collected via drilling. Mass is uniform (1) across all entries per the wiki; volume per unit is not published and is therefore null. Stone is present in game data but disabled in default settings.",
+  "resources": [
+    {
+      "id": "iron",
+      "displayName": "Iron",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Desert",
+              "Rocky Hills",
+              "Savanna",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": [
+              "Surface",
+              "Small Caves"
+            ]
+          },
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Default",
+              "Coast",
+              "Desert",
+              "Grass",
+              "Mountain",
+              "Savanna",
+              "Taiga",
+              "Tundra",
+              "Water",
+              "Viridian Halo"
+            ]
+          },
+          {
+            "name": "Byblos",
+            "biomes": [
+              "Savanna",
+              "Tundra",
+              "Underwater"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [],
+      "dataGaps": [
+        "volume_liters",
+        "refinableInto"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Iron"
+    },
+    {
+      "id": "nickel",
+      "displayName": "Nickel",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Desert",
+              "Savanna",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Default",
+              "Coast",
+              "Desert",
+              "Grass",
+              "Mountain",
+              "Savanna",
+              "Taiga",
+              "Tundra",
+              "Water",
+              "Viridian Halo"
+            ]
+          },
+          {
+            "name": "Byblos",
+            "biomes": [
+              "Savanna",
+              "Tundra",
+              "Underwater"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": [
+              "Surface",
+              "Small Caves"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [],
+      "dataGaps": [
+        "volume_liters",
+        "refinableInto"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Nickel"
+    },
+    {
+      "id": "silicon",
+      "displayName": "Silicon",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Desert",
+              "Savanna"
+            ]
+          },
+          {
+            "name": "Verdure",
+            "biomes": []
+          },
+          {
+            "name": "Byblos",
+            "biomes": []
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": []
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [],
+      "dataGaps": [
+        "volume_liters",
+        "refinableInto"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Silicon"
+    },
+    {
+      "id": "cobalt",
+      "displayName": "Cobalt",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Byblos",
+            "biomes": [
+              "Savanna",
+              "Tundra",
+              "Underwater",
+              "Volcanic"
+            ]
+          },
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Desert",
+              "Savanna",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": [
+              "Surface",
+              "Caves"
+            ]
+          },
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Viridian Halo"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [
+        "Jetpack Fuel Tank",
+        "Medikit",
+        "Metal Grid",
+        "Permanent Magnet"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Cobalt"
+    },
+    {
+      "id": "magnesium",
+      "displayName": "Magnesium",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Viridian Halo"
+            ]
+          },
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Puddles",
+              "Rocky Hills"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          }
+        ],
+        "asteroidFields": [
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [
+        "Magnesium Bar",
+        "Magnesium Powder"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Magnesium"
+    },
+    {
+      "id": "silver",
+      "displayName": "Silver",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Underground Layer 1",
+              "Underground Layer 2",
+              "Volcanic",
+              "Puddles",
+              "Cryon Ring"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Silver Rod"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Silver"
+    },
+    {
+      "id": "gold",
+      "displayName": "Gold",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Viridian Halo"
+            ]
+          },
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Rocky Hills",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": [
+              "Small Caves"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Gold Thread",
+        "Superconductor"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Gold"
+    },
+    {
+      "id": "uranium",
+      "displayName": "Uranium",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource used as a raw material for crafting and power generation. Consumed by the Reactor 2.5 m block.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Underground Layer 1",
+              "Underground Layer 2",
+              "Volcanic",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          }
+        ],
+        "asteroidFields": [
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Enriched Uranium"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Uranium"
+    },
+    {
+      "id": "platinum",
+      "displayName": "Platinum",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Volcanic",
+              "Cryon Ring"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Platinum Electrode"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Platinum"
+    },
+    {
+      "id": "chromium",
+      "displayName": "Chromium",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Rocky Hills",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": [
+              "Underground"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Chrome Coating"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Chromium"
+    },
+    {
+      "id": "copper",
+      "displayName": "Copper",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          },
+          {
+            "name": "Palatine",
+            "biomes": []
+          },
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Viridian Halo"
+            ]
+          },
+          {
+            "name": "Byblos",
+            "biomes": []
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [],
+      "dataGaps": [
+        "volume_liters",
+        "refinableInto"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Copper"
+    },
+    {
+      "id": "lead",
+      "displayName": "Lead",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Rocky Hills",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Viridian Halo"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field"
+        ]
+      },
+      "refinableInto": [
+        "Lead Bar"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Lead"
+    },
+    {
+      "id": "titanium",
+      "displayName": "Titanium",
+      "type": "ore",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type natural resource, mined via drilling.",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Underground Layer 1",
+              "Underground Layer 2",
+              "Volcanic",
+              "Cryon Ring"
+            ]
+          },
+          {
+            "name": "Caligo",
+            "biomes": []
+          }
+        ],
+        "asteroidFields": [
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Titanium Sheet"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Titanium"
+    },
+    {
+      "id": "ice",
+      "displayName": "Ice",
+      "type": "material",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Natural frozen resource mined from a variety of snow and ice surface types (IceOre, CliffsSnow, GrassSnow, GravelSnow, FreshSnow, RocksSnow, SnowBumpy, IceTaiga).",
+      "gameStatus": "active",
+      "locations": {
+        "planets": [
+          {
+            "name": "Kemik",
+            "biomes": [
+              "Underground",
+              "Rocky Hills"
+            ]
+          },
+          {
+            "name": "Verdure",
+            "biomes": [
+              "Mountain",
+              "Taiga",
+              "Tundra",
+              "Viridian Halo"
+            ]
+          },
+          {
+            "name": "Byblos",
+            "biomes": [
+              "Tundra"
+            ]
+          }
+        ],
+        "asteroidFields": [
+          "Ice Shatter Field",
+          "Iron Rich Boulder Field",
+          "Rare Ore Boulder Field",
+          "Nadarie Asteroid Cluster",
+          "Oblivara Asteroid Cluster"
+        ]
+      },
+      "refinableInto": [
+        "Jetpack Fuel Tank",
+        "Oxygen Recharge"
+      ],
+      "dataGaps": [
+        "volume_liters"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ice"
+    },
+    {
+      "id": "stone",
+      "displayName": "Stone",
+      "type": "material",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": true,
+      "description": "Ore-type item. Present in game data but not used in the default game settings; cannot be obtained through normal gameplay.",
+      "gameStatus": "disabled",
+      "locations": {
+        "planets": [],
+        "asteroidFields": []
+      },
+      "refinableInto": [],
+      "dataGaps": [
+        "volume_liters",
+        "refinableInto",
+        "locations"
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Stone"
+    }
+  ]
+}
