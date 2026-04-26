@@ -1,0 +1,243 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility",
+    "https://spaceengineers2.wiki.gg/wiki/Category:Cargo_Container"
+  ],
+  "notes": "Storage blocks: item storage (cargo containers, locker, crate, barrel) and gas storage (hydrogen and oxygen tanks). Build-component quantities are totals (initial + extra welding phases). Gas flow rates are stored as the raw wiki numbers; wiki uses both 'per cycle' and '/s' phrasing — captured in gasStorage.unitAsPublished where available. Locker 2 m, Crate 1 m, and Barrel 1.25 m are functional flavor variants with identical storage specs (1,050 kg, same build components) — they are kept as separate entries because they have distinct IDs, masses, and snap sizes.",
+  "resources": [
+    {
+      "id": "cargo_container_1_5_m",
+      "displayName": "Cargo Container 1.5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "cargo",
+      "size_m": 1.5,
+      "mass_kg": 245.17,
+      "health": 196.13,
+      "pcu": 80,
+      "snapSize": 2,
+      "description": "Logistics block that stores items on ships and stations. Attach conveyors to the ports to form a conveyor system.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 7 },
+        { "id": "motor", "qty": 2 },
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "inventory": { "maxMass_kg": 16800 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Cargo_Container_1.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "cargo_container_2_5_m",
+      "displayName": "Cargo Container 2.5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "cargo",
+      "size_m": 2.5,
+      "mass_kg": 669.08,
+      "health": 535.26,
+      "pcu": 80,
+      "snapSize": 10,
+      "description": "Logistics block that stores items on ships and stations.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 14 },
+        { "id": "motor", "qty": 4 },
+        { "id": "construction_component", "qty": 2 }
+      ],
+      "inventory": { "maxMass_kg": 67200 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Cargo_Container_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "cargo_container_7_5_m",
+      "displayName": "Cargo Container 7.5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "cargo",
+      "size_m": 7.5,
+      "mass_kg": 5092.09,
+      "health": 4073.67,
+      "pcu": 80,
+      "snapSize": 10,
+      "description": "Logistics block that stores items on ships and stations.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "motor", "qty": 12 },
+        { "id": "wire", "qty": 6 }
+      ],
+      "inventory": { "maxMass_kg": 2150400 },
+      "unlock": "Kemik sector, 57% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Cargo_Container_7.5_m",
+      "dataGaps": ["buildComponents (wiki lists no Steel Plate — uncertain whether accurate or a wiki omission vs smaller siblings)"]
+    },
+    {
+      "id": "hydrogen_tank_1_5_m",
+      "displayName": "Hydrogen Tank 1.5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "gas_tank",
+      "size_m": 1.5,
+      "mass_kg": 382.4,
+      "health": 305.92,
+      "pcu": 60,
+      "snapSize": 1,
+      "description": "Storage vessel for hydrogen gas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 7 },
+        { "id": "steel_tube", "qty": 1 },
+        { "id": "turbine_blades", "qty": 2 }
+      ],
+      "gasStorage": { "gas": "hydrogen", "capacity": 8000, "maxInput": 1999.9, "maxOutput": 2000, "holdInteractionRate": 67, "unitAsPublished": "per cycle / /s (wiki phrasing inconsistent)" },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Tank_1.5_m",
+      "dataGaps": ["gasStorage.unitAsPublished (wiki reports both 'per cycle' and '/s')"]
+    },
+    {
+      "id": "hydrogen_tank_5_m",
+      "displayName": "Hydrogen Tank 5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "gas_tank",
+      "size_m": 5,
+      "mass_kg": 1534.87,
+      "health": 1227.9,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Storage vessel for hydrogen gas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 42 },
+        { "id": "steel_tube", "qty": 6 },
+        { "id": "turbine_blades", "qty": 12 }
+      ],
+      "gasStorage": { "gas": "hydrogen", "capacity": 32000, "maxInput": 3999.9, "maxOutput": 4000, "holdInteractionRate": null, "unitAsPublished": "/s" },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Tank_5_m",
+      "dataGaps": ["gasStorage.holdInteractionRate"]
+    },
+    {
+      "id": "hydrogen_tank_12_5_m",
+      "displayName": "Hydrogen Tank 12.5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "gas_tank",
+      "size_m": 12.5,
+      "mass_kg": 9552.79,
+      "health": 7642.23,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Storage vessel for hydrogen gas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "turbine_blades", "qty": 3 },
+        { "id": "lead_bar", "qty": 3 },
+        { "id": "chrome_coating", "qty": 3 },
+        { "id": "pressure_pipe", "qty": 12 }
+      ],
+      "gasStorage": { "gas": "hydrogen", "capacity": 1280000, "maxInput": 99999.9, "maxOutput": 100000, "holdInteractionRate": 67, "unitAsPublished": "/s" },
+      "unlock": "Kemik sector, 19% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Tank_12.5_m",
+      "dataGaps": ["buildComponents:pressure_pipe (complex component, not yet modeled)"]
+    },
+    {
+      "id": "oxygen_tank_1_5_m",
+      "displayName": "Oxygen Tank 1.5 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "gas_tank",
+      "size_m": 1.5,
+      "mass_kg": 382.4,
+      "health": 305.92,
+      "pcu": 60,
+      "snapSize": 1,
+      "description": "Storage vessel for oxygen gas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 7 },
+        { "id": "steel_tube", "qty": 1 },
+        { "id": "turbine_blades", "qty": 2 }
+      ],
+      "gasStorage": { "gas": "oxygen", "capacity": 8000, "maxInput": 1999.9, "maxOutput": 2000, "holdInteractionRate": 67, "unitAsPublished": "/s" },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Oxygen_Tank_1.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "locker_2_m",
+      "displayName": "Locker 2 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "small_storage",
+      "size_m": 2,
+      "mass_kg": 140.96,
+      "health": 112.76,
+      "pcu": 80,
+      "snapSize": 1,
+      "description": "Personal storage for gear and essentials.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 9 },
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "inventory": { "maxMass_kg": 1050 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Locker_2_m",
+      "dataGaps": []
+    },
+    {
+      "id": "crate_1_m",
+      "displayName": "Crate 1 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "small_storage",
+      "size_m": 1,
+      "mass_kg": 38.72,
+      "health": 30.97,
+      "pcu": 80,
+      "snapSize": 2,
+      "description": "A small standalone storage container.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 9 },
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "inventory": { "maxMass_kg": 1050 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Crate_1_m",
+      "dataGaps": []
+    },
+    {
+      "id": "barrel_1_25_m",
+      "displayName": "Barrel 1.25 m",
+      "type": "block",
+      "subcategory": "storage",
+      "storageType": "small_storage",
+      "size_m": 1.25,
+      "mass_kg": 82.63,
+      "health": 66.1,
+      "pcu": 80,
+      "snapSize": 1,
+      "description": "Large standalone storage container.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 9 },
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "inventory": { "maxMass_kg": 1050 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Barrel_1.25_m",
+      "dataGaps": []
+    }
+  ]
+}
