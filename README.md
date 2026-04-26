@@ -15,6 +15,7 @@ individually.
 | Blocks — production | [`data/blocks/production.json`](./data/blocks/production.json) | Smelter, Gearforge, Refinery, Assembler, Fabricator (5 entries) |
 | Blocks — power | [`data/blocks/power.json`](./data/blocks/power.json) | Reactors, batteries, solar panels (7 entries) |
 | Blocks — tools | [`data/blocks/tools.json`](./data/blocks/tools.json) | Ship-mounted drills, grinders, welders (6 entries) |
+| Blocks — thrusters | [`data/blocks/thrusters.json`](./data/blocks/thrusters.json) | Atmospheric, ion, and hydrogen thrusters (12 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
 (production, energy, tools, thrusters, storage, etc.) rather than one
