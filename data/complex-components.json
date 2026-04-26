@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Complex_Components",
+    "https://spaceengineers2.wiki.gg/wiki/Assembler_5_m"
+  ],
+  "notes": "Complex components are produced by the Assembler 5 m from simple components, refinery products, and raw ores. These are the intermediates that block recipes reach for most often. Volume per unit is not published on the wiki and is null.",
+  "resources": [
+    {
+      "id": "heavy_duty_plate",
+      "displayName": "Heavy-Duty Plate",
+      "type": "complex_component",
+      "mass_kg": 120,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting various blocks and equipment.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "steel_plate", "qty": 3 }], "producesQty": 1, "craftingTimeSeconds": 1.5 }
+      ],
+      "usedIn": ["Armor (multiple sizes and shapes)", "Atmospheric Thruster 5 m", "Hydrogen Thruster", "Ion Thruster", "Battery", "Cargo Container", "Refinery 7.5 m", "Fabricator 10 m", "Reactor", "Grinder Mk 3", "Welder", "Landing Gear", "Gyroscope", "Gravity Generator", "Rocket Launcher"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Heavy-Duty_Plate",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "combustion_chamber",
+      "displayName": "Combustion Chamber",
+      "type": "complex_component",
+      "mass_kg": 35,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component used in crafting various thrusters, weapons, and tools.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "turbine_blades", "qty": 2 }, { "id": "metal_grid", "qty": 1 }, { "id": "steel_tube", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 2 }
+      ],
+      "usedIn": ["Atmospheric Thruster 10 m", "Atmospheric Thruster 5 m", "Hydrogen Thruster 2.5 m", "Hydrogen Thruster 7.5 m", "Rocket Launcher", "Welder Mk 3"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Combustion_Chamber",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "pressure_pipe",
+      "displayName": "Pressure Pipe",
+      "type": "complex_component",
+      "mass_kg": 55,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component used in crafting various blocks and equipment.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "turbine_blades", "qty": 2 }, { "id": "lead_bar", "qty": 1 }, { "id": "steel_tube", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 2 }
+      ],
+      "usedIn": ["Hydrogen Tank 12.5 m", "Hydrogen Thruster 7.5 m", "Advanced Compressor", "Drill Mk 3", "Iron Sight Rifle", "Rocket Launcher"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Pressure_Pipe",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "compressor",
+      "displayName": "Compressor",
+      "type": "complex_component",
+      "mass_kg": 90,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component item used in crafting various advanced blocks and equipment.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "motor", "qty": 2 }, { "id": "wire", "qty": 2 }, { "id": "steel_tube", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 2 }
+      ],
+      "usedIn": ["Atmospheric Thruster 5 m", "Drill 3.5 m", "Drill 5.25 m", "Grinder 3.5 m", "Grinder 4 m", "Welder 3.5 m", "Welder 4 m", "Medical Room 5 m", "O2/H2 Generator 5 m", "Pistons", "Refinery 7.5 m", "Fabricator 10 m", "Advanced Compressor"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Compressor",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "motherboard",
+      "displayName": "Motherboard",
+      "type": "complex_component",
+      "mass_kg": 40,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Electronic component used in crafting advanced blocks and systems.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "electronic_parts", "qty": 1 }, { "id": "gold_thread", "qty": 4 }], "producesQty": 1, "craftingTimeSeconds": 2 }
+      ],
+      "usedIn": ["Battery 2.5 m", "Gatling Turret 5.5 m", "Medical Room 5 m", "Reactor 2.5 m", "Refinery 7.5 m", "Mainframe"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Motherboard",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "hard_drive",
+      "displayName": "Hard Drive",
+      "type": "complex_component",
+      "mass_kg": 80,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component item used in crafting advanced equipment.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "electronic_parts", "qty": 4 }, { "id": "gold_thread", "qty": 4 }], "producesQty": 1, "craftingTimeSeconds": 2.5 }
+      ],
+      "usedIn": ["Mainframe"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Hard_Drive",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "ion_chamber",
+      "displayName": "Ion Chamber",
+      "type": "complex_component",
+      "mass_kg": 30,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component item used in crafting advanced blocks and equipment.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "wire", "qty": 1 }, { "id": "gold_thread", "qty": 2 }, { "id": "steel_tube", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 2.5 }
+      ],
+      "usedIn": ["Ion Thruster 1.5 m", "Ion Thruster 5 m", "Welder 3.5 m", "Welder 4 m", "Laser"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Chamber",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "chemical_synthesizer",
+      "displayName": "Chemical Synthesizer",
+      "type": "complex_component",
+      "mass_kg": 90,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced blocks.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "wire", "qty": 3 }, { "id": "chrome_coating", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 2.5 }
+      ],
+      "usedIn": ["Medical Room 5 m", "Refinery 7.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Chemical_Synthesizer",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "radio_comm_module",
+      "displayName": "Radio-Comm Module",
+      "type": "complex_component",
+      "mass_kg": 85,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced blocks like antennas and ore detectors.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "electronic_parts", "qty": 5 }, { "id": "wire", "qty": 3 }], "producesQty": 1, "craftingTimeSeconds": 2 }
+      ],
+      "usedIn": ["Antenna 12.5 m", "Ore Detector 5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Radio-Comm_Module",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "reactor_core",
+      "displayName": "Reactor Core",
+      "type": "complex_component",
+      "mass_kg": 360,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component item used in crafting reactor blocks.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Assembler 5 m", "ingredients": [{ "id": "metal_grid", "qty": 4 }, { "id": "lead_bar", "qty": 5 }, { "id": "gold_thread", "qty": 10 }], "producesQty": 1, "craftingTimeSeconds": 4 }
+      ],
+      "usedIn": ["Reactor 2.5 m", "Reactor 7.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Reactor_Core",
+      "dataGaps": ["volume_liters"]
+    }
+  ]
+}

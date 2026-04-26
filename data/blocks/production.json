@@ -24,26 +24,55 @@
       "description": "Produces the simplest components that are used in almost all blocks.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_plate", "qty": 42 },
-        { "id": "motor", "qty": 12 },
-        { "id": "electronic_parts", "qty": 3 },
-        { "id": "wire", "qty": 3 }
+        {
+          "id": "steel_plate",
+          "qty": 42
+        },
+        {
+          "id": "motor",
+          "qty": 12
+        },
+        {
+          "id": "electronic_parts",
+          "qty": 3
+        },
+        {
+          "id": "wire",
+          "qty": 3
+        }
       ],
-      "power": { "maxInput": 800 },
+      "power": {
+        "maxInput": 800
+      },
       "production": {
         "maxQueueSize": 10,
         "efficiencyMultiplier": 1,
         "speedMultiplier": 1,
         "producesIds": [
-          "steel_plate", "steel_tube", "glass", "electronic_parts", "motor",
-          "construction_component", "wire", "turbine_blades", "metal_grid",
-          "magnesium_powder", "lead_bar", "gold_thread", "chrome_coating"
+          "steel_plate",
+          "steel_tube",
+          "glass",
+          "electronic_parts",
+          "motor",
+          "construction_component",
+          "wire",
+          "turbine_blades",
+          "metal_grid",
+          "magnesium_powder",
+          "lead_bar",
+          "gold_thread",
+          "chrome_coating"
         ]
       },
-      "inventory": { "inputMass_kg": 8400, "outputMass_kg": 8400 },
+      "inventory": {
+        "inputMass_kg": 8400,
+        "outputMass_kg": 8400
+      },
       "unlock": "Verdure sector, 10% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Smelter_2.5_m",
-      "dataGaps": ["power.unit"]
+      "dataGaps": [
+        "power.unit"
+      ]
     },
     {
       "id": "gearforge_2_5_m",
@@ -58,27 +87,57 @@
       "description": "Production block used for manufacturing character-related personal items (tools, consumables, weapons, ammunition).",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_plate", "qty": 28 },
-        { "id": "electronic_parts", "qty": 2 },
-        { "id": "motor", "qty": 8 }
+        {
+          "id": "steel_plate",
+          "qty": 28
+        },
+        {
+          "id": "electronic_parts",
+          "qty": 2
+        },
+        {
+          "id": "motor",
+          "qty": 8
+        }
       ],
-      "power": { "maxInput": 800 },
+      "power": {
+        "maxInput": 800
+      },
       "production": {
         "maxQueueSize": 10,
         "efficiencyMultiplier": 1,
         "speedMultiplier": 1,
         "producesIds": [
-          "drill_mk_1", "drill_mk_2", "drill_mk_3", "drill_mk_4",
-          "grinder_mk_1", "grinder_mk_2", "grinder_mk_3", "grinder_mk_4",
-          "welder_mk_1", "welder_mk_2", "welder_mk_3", "welder_mk_4",
-          "area_welder_mk_1", "iron_sight_rifle", "rocket_launcher",
-          "jetpack_fuel_tank", "medikit", "oxygen_recharge", "suit_battery"
+          "drill_mk_1",
+          "drill_mk_2",
+          "drill_mk_3",
+          "drill_mk_4",
+          "grinder_mk_1",
+          "grinder_mk_2",
+          "grinder_mk_3",
+          "grinder_mk_4",
+          "welder_mk_1",
+          "welder_mk_2",
+          "welder_mk_3",
+          "welder_mk_4",
+          "area_welder_mk_1",
+          "iron_sight_rifle",
+          "rocket_launcher",
+          "jetpack_fuel_tank",
+          "medikit",
+          "oxygen_recharge",
+          "suit_battery"
         ]
       },
-      "inventory": { "inputMass_kg": 8400, "outputMass_kg": 8400 },
+      "inventory": {
+        "inputMass_kg": 8400,
+        "outputMass_kg": 8400
+      },
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Gearforge_2.5_m",
-      "dataGaps": ["power.unit", "production.producesIds:ammunition (not yet modeled; wiki lists 26 outputs, only 19 character gear items are covered)"]
+      "dataGaps": [
+        "power.unit"
+      ]
     },
     {
       "id": "refinery_7_5_m",
@@ -93,25 +152,47 @@
       "description": "Processes raw ores into refined materials that can be used for construction and production.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "compressor", "qty": 8 },
-        { "id": "motherboard", "qty": 1 },
-        { "id": "chemical_synthesizer", "qty": 1 }
+        {
+          "id": "compressor",
+          "qty": 8
+        },
+        {
+          "id": "motherboard",
+          "qty": 1
+        },
+        {
+          "id": "chemical_synthesizer",
+          "qty": 1
+        }
       ],
-      "power": { "maxInput": 3200 },
+      "power": {
+        "maxInput": 3200
+      },
       "production": {
         "maxQueueSize": 20,
         "efficiencyMultiplier": 1,
         "speedMultiplier": 1,
         "producesIds": [
-          "stainless_steel", "magnesium_bar", "silver_rod", "titanium_sheet",
-          "platinum_electrode", "permanent_magnet", "superconductor",
-          "enriched_uranium", "radiation_shielding"
+          "stainless_steel",
+          "magnesium_bar",
+          "silver_rod",
+          "titanium_sheet",
+          "platinum_electrode",
+          "permanent_magnet",
+          "superconductor",
+          "enriched_uranium",
+          "radiation_shielding"
         ]
       },
-      "inventory": { "inputMass_kg": 25200, "outputMass_kg": 25200 },
+      "inventory": {
+        "inputMass_kg": 25200,
+        "outputMass_kg": 25200
+      },
       "unlock": "Kemik sector, 18% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Refinery_7.5_m",
-      "dataGaps": ["power.unit", "buildComponents:compressor/motherboard/chemical_synthesizer (complex components, not yet modeled)"]
+      "dataGaps": [
+        "power.unit"
+      ]
     },
     {
       "id": "assembler_5_m",
@@ -126,26 +207,52 @@
       "description": "Converts simple and refined components into complex components over time.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "steel_plate", "qty": 112 },
-        { "id": "electronic_parts", "qty": 8 },
-        { "id": "motor", "qty": 32 },
-        { "id": "gold_thread", "qty": 8 }
+        {
+          "id": "steel_plate",
+          "qty": 112
+        },
+        {
+          "id": "electronic_parts",
+          "qty": 8
+        },
+        {
+          "id": "motor",
+          "qty": 32
+        },
+        {
+          "id": "gold_thread",
+          "qty": 8
+        }
       ],
-      "power": { "maxInput": 1600 },
+      "power": {
+        "maxInput": 1600
+      },
       "production": {
         "maxQueueSize": 20,
         "efficiencyMultiplier": 1,
         "speedMultiplier": 1,
         "producesIds": [
-          "chemical_synthesizer", "combustion_chamber", "compressor",
-          "hard_drive", "heavy_duty_plate", "ion_chamber", "motherboard",
-          "pressure_pipe", "radio_comm_module", "reactor_core"
+          "chemical_synthesizer",
+          "combustion_chamber",
+          "compressor",
+          "hard_drive",
+          "heavy_duty_plate",
+          "ion_chamber",
+          "motherboard",
+          "pressure_pipe",
+          "radio_comm_module",
+          "reactor_core"
         ]
       },
-      "inventory": { "inputMass_kg": 16800, "outputMass_kg": 16800 },
+      "inventory": {
+        "inputMass_kg": 16800,
+        "outputMass_kg": 16800
+      },
       "unlock": "Verdure sector, 10% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Assembler_5_m",
-      "dataGaps": ["power.unit", "production.producesIds (all 10 are complex components, not yet modeled)"]
+      "dataGaps": [
+        "power.unit"
+      ]
     },
     {
       "id": "fabricator_10_m",
@@ -160,24 +267,46 @@
       "description": "Produces the most advanced types of components used in the most high-tech blocks.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "platinum_electrode", "qty": 2 },
-        { "id": "titanium_sheet", "qty": 2 },
-        { "id": "compressor", "qty": 16 }
+        {
+          "id": "platinum_electrode",
+          "qty": 2
+        },
+        {
+          "id": "titanium_sheet",
+          "qty": 2
+        },
+        {
+          "id": "compressor",
+          "qty": 16
+        }
       ],
-      "power": { "maxInput": 6400 },
+      "power": {
+        "maxInput": 6400
+      },
       "production": {
         "maxQueueSize": 10,
         "efficiencyMultiplier": 1,
         "speedMultiplier": 1,
         "producesIds": [
-          "advanced_compressor", "gravity_core", "ion_accelerator",
-          "laser", "mainframe", "titanium_blades", "ultra_resistant_plate"
+          "advanced_compressor",
+          "gravity_core",
+          "ion_accelerator",
+          "laser",
+          "mainframe",
+          "titanium_blades",
+          "ultra_resistant_plate"
         ]
       },
-      "inventory": { "inputMass_kg": 268800, "outputMass_kg": 268800 },
+      "inventory": {
+        "inputMass_kg": 268800,
+        "outputMass_kg": 268800
+      },
       "unlock": "Kemik sector, 78% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Fabricator_10_m",
-      "dataGaps": ["power.unit", "buildComponents:compressor (complex component, not yet modeled)", "production.producesIds (all 7 are high-tech components, not yet modeled)"]
+      "dataGaps": [
+        "power.unit",
+        "production.producesIds (all 7 are high-tech components, not yet modeled)"
+      ]
     }
   ]
 }

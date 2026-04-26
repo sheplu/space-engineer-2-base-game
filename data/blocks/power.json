@@ -54,8 +54,7 @@
       "dataGaps": [
         "power.unitAsPublished",
         "fuel.consumesId",
-        "fuel.rate",
-        "buildComponents:motherboard/reactor_core (complex components, not yet modeled)"
+        "fuel.rate"
       ]
     },
     {
@@ -100,8 +99,7 @@
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Reactor_7.5_m",
       "dataGaps": [
         "power.unitAsPublished (wiki says 'W' but this may be shorthand for a larger unit — scale vs Reactor 2.5 m suggests MW)",
-        "fuel.rate",
-        "buildComponents:reactor_core (complex component, not yet modeled)"
+        "fuel.rate"
       ]
     },
     {
@@ -255,8 +253,7 @@
       "unlock": "Verdure sector, 70% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Battery_2.5_m",
       "dataGaps": [
-        "storage.capacity (depends on power cells, not yet modeled)",
-        "buildComponents:motherboard (complex component, not yet modeled)"
+        "storage.capacity (depends on power cells, not yet modeled)"
       ]
     },
     {
