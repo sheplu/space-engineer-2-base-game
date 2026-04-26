@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:High-tech_Components",
+    "https://spaceengineers2.wiki.gg/wiki/Fabricator_10_m"
+  ],
+  "notes": "High-tech components are produced by the Fabricator 10 m from refinery products and complex components. These are the top-tier intermediates required for the most advanced blocks (large reactors, large thrusters, gravity tech). Volume per unit is not published on the wiki and is null.",
+  "resources": [
+    {
+      "id": "ultra_resistant_plate",
+      "displayName": "Ultra-Resistant Plate",
+      "type": "high_tech_component",
+      "mass_kg": 185,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting large-scale ship systems.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "titanium_sheet", "qty": 6 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": ["Atmospheric Thruster 10 m", "Hydrogen Thruster 7.5 m", "Ion Thruster 7.5 m", "Reactor 7.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ultra-Resistant_Plate",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "titanium_blades",
+      "displayName": "Titanium Blades",
+      "type": "high_tech_component",
+      "mass_kg": 250,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component item used in crafting.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "titanium_sheet", "qty": 6 }, { "id": "stainless_steel", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": [],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Titanium_Blades",
+      "dataGaps": ["volume_liters", "usedIn (wiki does not list consumers)"]
+    },
+    {
+      "id": "advanced_compressor",
+      "displayName": "Advanced Compressor",
+      "type": "high_tech_component",
+      "mass_kg": 420,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component utilized in crafting advanced atmospheric propulsion systems.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "compressor", "qty": 1 }, { "id": "pressure_pipe", "qty": 2 }, { "id": "titanium_sheet", "qty": 7 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": ["Atmospheric Thruster 10 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Advanced_Compressor",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "ion_accelerator",
+      "displayName": "Ion Accelerator",
+      "type": "high_tech_component",
+      "mass_kg": 400,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Component used in crafting the Ion Thruster 7.5 m block.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "platinum_electrode", "qty": 5 }, { "id": "silver_rod", "qty": 3 }, { "id": "superconductor", "qty": 3 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": ["Ion Thruster 7.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Accelerator",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "gravity_core",
+      "displayName": "Gravity Core",
+      "type": "high_tech_component",
+      "mass_kg": 700,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced gravity technology blocks.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "silver_rod", "qty": 10 }, { "id": "permanent_magnet", "qty": 5 }, { "id": "superconductor", "qty": 4 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": ["Gravity Generator 5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Gravity_Core",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "laser",
+      "displayName": "Laser",
+      "type": "high_tech_component",
+      "mass_kg": 200,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "A component used in crafting advanced blocks.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "ion_chamber", "qty": 3 }, { "id": "magnesium_bar", "qty": 4 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": ["Gyroscope 7.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Laser",
+      "dataGaps": ["volume_liters"]
+    },
+    {
+      "id": "mainframe",
+      "displayName": "Mainframe",
+      "type": "high_tech_component",
+      "mass_kg": 205,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Advanced computational component used in high-tier crafting recipes.",
+      "gameStatus": "active",
+      "recipes": [
+        { "producedBy": "Fabricator 10 m", "ingredients": [{ "id": "motherboard", "qty": 1 }, { "id": "hard_drive", "qty": 2 }], "producesQty": 1, "craftingTimeSeconds": 4.2 }
+      ],
+      "usedIn": ["Gyroscope 7.5 m"],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Mainframe",
+      "dataGaps": ["volume_liters"]
+    }
+  ]
+}

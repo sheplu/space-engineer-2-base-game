@@ -347,8 +347,7 @@
       "unlock": "Kemik sector, 99% contract progress",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Ion_Thruster_7.5_m",
       "dataGaps": [
-        "power.unitAsPublished (wiki says 'W' — scale vs other ion thrusters suggests this is a wiki typo for kW or MW)",
-        "buildComponents:ion_accelerator (high-tech component, not yet modeled)"
+        "power.unitAsPublished (wiki says 'W' — scale vs other ion thrusters suggests this is a wiki typo for kW or MW)"
       ]
     },
     {
