@@ -9,7 +9,7 @@
   "sources": [
     "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
   ],
-  "notes": "Electricity-producing or electricity-storing blocks only: reactors, batteries, and solar panels. O2/H2 Generators and gas tanks are NOT included here — the generators electrolyse ice into hydrogen/oxygen gas and do not produce electricity; they will live in a future life-support/fuel dataset, and tanks in storage.json. If a hydrogen-to-electricity block (hydrogen engine) is added to SE2 later, it belongs here. Build-component quantities are totals (initial + extra for two-phase welding). Wiki power units are inconsistent — some pages show MW, some just 'electricity', some 'W'; stored values are the raw numbers from the wiki with the unit captured in power.unitAsPublished where available.",
+  "notes": "Electricity-producing or electricity-storing blocks only: reactors, batteries, and solar panels. O2/H2 Generators are NOT included here — they electrolyse ice into hydrogen/oxygen gas and do not produce electricity; see blocks/gas-production.json. Gas tanks live in blocks/storage.json. If a hydrogen-to-electricity block (hydrogen engine) is added to SE2 later, it belongs here. Build-component quantities are totals (initial + extra for two-phase welding). Wiki power units are inconsistent — some pages show MW, some just 'electricity', some 'W'; stored values are the raw numbers from the wiki with the unit captured in power.unitAsPublished where available.",
   "resources": [
     {
       "id": "reactor_2_5_m",

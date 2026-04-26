@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Blocks that produce or process gases. Currently limited to O2/H2 Generators, which electrolyse ice (and water) into hydrogen and oxygen. These were deliberately excluded from blocks/power.json because they neither produce nor store electricity. Gas tanks live in blocks/storage.json. Build-component quantities are totals (initial + extra welding phases). Gas output rates are published without an explicit unit — stored as raw numbers with gasOutput.unitAsPublished = null. Wiki reports power.maxInput = 0 for both generators; this is almost certainly a wiki omission (electrolysis requires energy) and is flagged in dataGaps.",
+  "resources": [
+    {
+      "id": "o2_h2_generator_1_5_m",
+      "displayName": "O2/H2 Generator 1.5 m",
+      "type": "block",
+      "subcategory": "gas_production",
+      "generatorRole": "electrolyser",
+      "size_m": 1.5,
+      "mass_kg": 523.01,
+      "health": 418.41,
+      "pcu": 50,
+      "snapSize": 2,
+      "description": "Turns ice and water into hydrogen and oxygen gas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 14 },
+        { "id": "motor", "qty": 4 },
+        { "id": "turbine_blades", "qty": 2 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "inputs": ["ice", "water"],
+      "gasOutput": { "hydrogenMax": 100, "oxygenMax": 50, "unitAsPublished": null },
+      "inventory": { "maxMass_kg": 8400 },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_1.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, almost certainly an oversight)", "gasOutput.unitAsPublished", "inputs:water (no water resource yet modeled)"]
+    },
+    {
+      "id": "o2_h2_generator_5_m",
+      "displayName": "O2/H2 Generator 5 m",
+      "type": "block",
+      "subcategory": "gas_production",
+      "generatorRole": "electrolyser",
+      "size_m": 5,
+      "mass_kg": 2957.53,
+      "health": 2366.03,
+      "pcu": 50,
+      "snapSize": 10,
+      "description": "Turns ice and water into hydrogen and oxygen gas.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 42 },
+        { "id": "turbine_blades", "qty": 3 },
+        { "id": "magnesium_powder", "qty": 3 },
+        { "id": "compressor", "qty": 12 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "inputs": ["ice", "water"],
+      "gasOutput": { "hydrogenMax": 900, "oxygenMax": 450, "unitAsPublished": null },
+      "inventory": { "maxMass_kg": 16800 },
+      "unlock": "Kemik sector, 19% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, almost certainly an oversight)", "gasOutput.unitAsPublished", "inputs:water (no water resource yet modeled)", "buildComponents:compressor (complex component, not yet modeled)"]
+    }
+  ]
+}
