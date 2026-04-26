@@ -29,6 +29,7 @@ individually.
 | Blocks — gravity | [`data/blocks/gravity.json`](./data/blocks/gravity.json) | Gravity Generator 5 m (1 entry) |
 | Blocks — cockpits | [`data/blocks/cockpits.json`](./data/blocks/cockpits.json) | Cockpit, Control Seat, Seat (3 entries) |
 | Blocks — lights | [`data/blocks/lights.json`](./data/blocks/lights.json) | Interior / corner lights + spotlights (5 entries) |
+| Blocks — life support | [`data/blocks/life-support.json`](./data/blocks/life-support.json) | Survival Kit, Medical Room (3 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
