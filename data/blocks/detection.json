@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Signal and sensor blocks: antennas broadcast communications; ore detectors scan for buried ores. Both antenna variants advertise a 10 km broadcast range. Ore detectors have a per-ore filter and default to broadcasting found markers via any attached antenna. Build-component quantities are totals (initial + extra welding phases). Note: the Radio-Comm Module's usedIn list on the wiki claims Antenna 12.5 m and Ore Detector 5 m consume it, but the individual block pages do not list Radio-Comm Module in their build components — this repo follows the per-block pages as authoritative and flags the inconsistency. Every detection block reports power.maxInput=0; almost certainly a wiki omission (antennas/detectors need power).",
+  "resources": [
+    {
+      "id": "antenna_1_5_m",
+      "displayName": "Antenna 1.5 m",
+      "type": "block",
+      "subcategory": "detection",
+      "detectionRole": "antenna",
+      "size_m": 1.5,
+      "mass_kg": 43.12,
+      "health": 34.5,
+      "pcu": 50,
+      "snapSize": 1,
+      "description": "Provides long-range communication between grids and allows remote access to them.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 7 },
+        { "id": "electronic_parts", "qty": 3 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "broadcast": { "maxRange_m": 10000, "enablesRemoteAccess": true },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Antenna_1.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "antenna_12_5_m",
+      "displayName": "Antenna 12.5 m",
+      "type": "block",
+      "subcategory": "detection",
+      "detectionRole": "antenna",
+      "size_m": 12.5,
+      "mass_kg": 2165.56,
+      "health": 1732.45,
+      "pcu": 50,
+      "snapSize": 10,
+      "description": "Provides long-range communication between grids and allows remote access to them.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 42 },
+        { "id": "steel_tube", "qty": 6 },
+        { "id": "gold_thread", "qty": 6 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "broadcast": { "maxRange_m": 10000, "enablesRemoteAccess": true },
+      "unlock": "Kemik sector, 60% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Antenna_12.5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "buildComponents (Radio-Comm Module's usedIn lists this block, but this block's page does not list radio_comm_module as a build component — wiki inconsistency)"]
+    },
+    {
+      "id": "ore_detector_1_m",
+      "displayName": "Ore Detector 1 m",
+      "type": "block",
+      "subcategory": "detection",
+      "detectionRole": "ore_detector",
+      "size_m": 1,
+      "mass_kg": 101.33,
+      "health": 81.06,
+      "pcu": 60,
+      "snapSize": 2,
+      "description": "Detects natural resources (raw ores) on asteroids and planets. Typically paired with drills for mining operations; markers can be broadcast via an attached antenna.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "electronic_parts", "qty": 1 },
+        { "id": "construction_component", "qty": 4 },
+        { "id": "wire", "qty": 2 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "scan": {
+        "defaultRange_m": 200,
+        "maxRange_m": 350,
+        "detectableOreIds": ["chromium", "cobalt", "copper", "gold", "ice", "iron", "lead", "magnesium", "nickel", "platinum", "silicon", "silver", "titanium", "uranium"],
+        "perOreFilter": true,
+        "requiresAntennaForRemoteMarkers": true
+      },
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ore_Detector_1_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "ore_detector_5_m",
+      "displayName": "Ore Detector 5 m",
+      "type": "block",
+      "subcategory": "detection",
+      "detectionRole": "ore_detector",
+      "size_m": 5,
+      "mass_kg": 1628.89,
+      "health": 1303.11,
+      "pcu": 60,
+      "snapSize": 10,
+      "description": "Detects natural resources (raw ores) on asteroids and planets. Markers can be broadcast via an attached antenna.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 28 },
+        { "id": "permanent_magnet", "qty": 4 }
+      ],
+      "power": { "maxInput": 0, "unitAsPublished": null },
+      "scan": {
+        "defaultRange_m": 350,
+        "maxRange_m": 350,
+        "detectableOreIds": ["chromium", "cobalt", "copper", "gold", "ice", "iron", "lead", "magnesium", "nickel", "platinum", "silicon", "silver", "titanium", "uranium"],
+        "perOreFilter": true,
+        "requiresAntennaForRemoteMarkers": true
+      },
+      "unlock": "Kemik sector, 59% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ore_Detector_5_m",
+      "dataGaps": ["power.maxInput (wiki reports 0, likely an oversight)", "buildComponents (Radio-Comm Module and Permanent Magnet both appear in conflicting wiki sources; this entry follows the Ore Detector 5 m block page which lists only Steel Plate and Permanent Magnet — flagged because the Radio-Comm Module page claims this block as a consumer)"]
+    }
+  ]
+}
