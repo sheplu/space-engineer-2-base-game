@@ -31,6 +31,7 @@ individually.
 | Blocks — lights | [`data/blocks/lights.json`](./data/blocks/lights.json) | Interior / corner lights + spotlights (5 entries) |
 | Blocks — life support | [`data/blocks/life-support.json`](./data/blocks/life-support.json) | Survival Kit, Medical Room (3 entries) |
 | Blocks — controls | [`data/blocks/controls.json`](./data/blocks/controls.json) | Button, Button Panel (2 entries, all planned) |
+| Blocks — terminals | [`data/blocks/terminals.json`](./data/blocks/terminals.json) | Contract Terminal, Trade Terminal (2 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
