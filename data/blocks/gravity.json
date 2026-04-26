@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
+  ],
+  "notes": "Gravity-manipulating blocks. Currently SE2 Early Access has one: the Gravity Generator 5 m. Gravity fields can be Field/Spherical/Cylindrical shape; overlapping fields from multiple generators add together. Max acceleration is 1g (9.80665 m/s²) and can be inverted down to -1g. Wiki reports power.maxInput as '1600 W' but given similar blocks publish values in kW, this likely represents kW — flagged as uncertain.",
+  "resources": [
+    {
+      "id": "gravity_generator_5_m",
+      "displayName": "Gravity Generator 5 m",
+      "type": "block",
+      "subcategory": "gravity",
+      "gravityRole": "generator",
+      "size_m": 5,
+      "mass_kg": 5171.93,
+      "health": 4137.54,
+      "pcu": 70,
+      "snapSize": 10,
+      "description": "Generates an artificial gravity field, allowing engineers to walk on surfaces in zero-gravity environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "gravity_core", "qty": 3 }
+      ],
+      "power": { "maxInput": 1600, "unitAsPublished": "W" },
+      "gravity": {
+        "maxRange_m": 100,
+        "maxAcceleration_mps2": 9.80665,
+        "minAcceleration_mps2": -9.80665,
+        "fieldShapes": ["Field", "Spherical", "Cylindrical"],
+        "fieldsStack": true
+      },
+      "unlock": "Kemik sector, 99% contract progress",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Gravity_Generator_5_m",
+      "dataGaps": ["power.unitAsPublished (wiki says 'W' but other blocks of this scale publish in kW — likely a wiki typo)"]
+    }
+  ]
+}
