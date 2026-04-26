@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-26",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-26"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Items"
+  ],
+  "notes": "Ammunition items for weapons (handheld and grid-mounted). All are crafted in the Gearforge 2.5 m. `usedBy` is a list of weapon ids that consume this ammo.",
+  "resources": [
+    {
+      "id": "gatling_ammo_box",
+      "displayName": "Gatling Ammo Box",
+      "type": "ammunition",
+      "mass_kg": 35,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Ammunition container for Gatling weapons. Each box holds 300 projectiles.",
+      "gameStatus": "active",
+      "roundsPerUnit": 300,
+      "usedBy": ["gatling_cannon_2_m", "gatling_turret_5_5_m"],
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "lead", "qty": 4 }, { "id": "steel_plate", "qty": 4 }, { "id": "copper", "qty": 4 }, { "id": "magnesium", "qty": 4 }], "producesQty": 1, "craftingTimeSeconds": 0 }
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Gatling_Ammo_Box",
+      "dataGaps": ["volume_liters", "recipes[0].craftingTimeSeconds (wiki reports 0, likely an oversight)"]
+    },
+    {
+      "id": "rifle_magazine",
+      "displayName": "Rifle Magazine",
+      "type": "ammunition",
+      "mass_kg": 1,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Ammunition magazine for the Iron Sight Rifle.",
+      "gameStatus": "active",
+      "roundsPerUnit": 30,
+      "usedBy": ["iron_sight_rifle"],
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "lead", "qty": 1 }, { "id": "steel_plate", "qty": 1 }, { "id": "copper", "qty": 1 }, { "id": "magnesium", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 1.5 }
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Rifle_Magazine",
+      "dataGaps": ["volume_liters", "roundsPerUnit (30 sourced from Iron Sight Rifle page, not Rifle Magazine page)"]
+    },
+    {
+      "id": "rocket",
+      "displayName": "Rocket",
+      "type": "ammunition",
+      "mass_kg": 88,
+      "volume_liters": null,
+      "stackable": true,
+      "divisible": false,
+      "description": "Rocket projectile ammunition for the handheld Rocket Launcher.",
+      "gameStatus": "active",
+      "roundsPerUnit": 1,
+      "usedBy": ["rocket_launcher"],
+      "recipes": [
+        { "producedBy": "Gearforge 2.5 m", "ingredients": [{ "id": "steel_plate", "qty": 1 }, { "id": "magnesium_powder", "qty": 1 }, { "id": "lead", "qty": 1 }, { "id": "metal_grid", "qty": 1 }], "producesQty": 1, "craftingTimeSeconds": 3 }
+      ],
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Rocket",
+      "dataGaps": ["volume_liters"]
+    }
+  ]
+}
