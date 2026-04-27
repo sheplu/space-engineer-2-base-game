@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "generatedAt": "2026-04-27",
   "game": {
     "name": "Space Engineers 2",
@@ -9,9 +9,14 @@
   "sources": [
     "https://spaceengineers2.wiki.gg/wiki/Category:Catwalk",
     "https://spaceengineers2.wiki.gg/wiki/Category:Handrail",
-    "https://spaceengineers2.wiki.gg/wiki/Category:Detailing"
+    "https://spaceengineers2.wiki.gg/wiki/Category:Detailing",
+    "https://spaceengineers2.wiki.gg/wiki/Structural_Support",
+    "https://spaceengineers2.wiki.gg/wiki/Truss",
+    "https://spaceengineers2.wiki.gg/wiki/Stairs_5_m",
+    "https://spaceengineers2.wiki.gg/wiki/Ramp_5_m",
+    "https://spaceengineers2.wiki.gg/wiki/Cover_Wall_Half_1.25_m"
   ],
-  "notes": "Decorative and walkway structures — bundled because each subgroup is small and they share the same ergonomic profile (cosmetic/structural blocks). 14 entries across three groups: Catwalks (5, grated walkways and stair variants, built from Steel Plate), Handrails (5, edge railings built from Steel Tube), Detailing (4, tiny 0.25 m decorative shapes built from Construction Component). `structuralRole` distinguishes the subgroup; `structuralShape` captures the geometric variant. Health == mass for every entry on the wiki.",
+  "notes": "Decorative and structural support blocks. 24 entries across seven groups: Catwalks (5), Handrails (5), Detailing (4), Structural Support (2 — open-frame braces), Truss Block (2 — hollow frames), Stairs/Ramp (2 — level transitions), Cover Wall (1 active + 1 stub — defensive half-height walls), plus three planned stubs (Stairway, Pillar, Half Cover Wall — wiki pages exist but have no infobox yet). `structuralRole` distinguishes the subgroup; `structuralShape` captures the geometric variant. Health == mass on every entry with published data.",
   "resources": [
     {
       "id": "catwalk_corner_base_2_5_m",
@@ -306,6 +311,210 @@
       "unlock": "Unlocked by default in all survival worlds",
       "wiki": "https://spaceengineers2.wiki.gg/wiki/Detailing_Slope_0.25_m",
       "dataGaps": []
+    },
+    {
+      "id": "structural_support_straight_2_5_m",
+      "displayName": "Structural Support Straight 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "structural_support",
+      "structuralShape": "straight",
+      "size_m": 2.5,
+      "mass_kg": 69,
+      "health": 69,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "An open-frame structural element used to support or brace frameworks in mechanical systems.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 2 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Structural_Support_Straight_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "structural_support_wide_2_5_m",
+      "displayName": "Structural Support Wide 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "structural_support",
+      "structuralShape": "wide",
+      "size_m": 2.5,
+      "mass_kg": 116.46,
+      "health": 116.46,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "An open-frame structural element used to support or brace frameworks in mechanical systems.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 3 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Structural_Support_Wide_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "truss_block_0_5_m",
+      "displayName": "Truss Block 0.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "truss",
+      "structuralShape": "cube",
+      "size_m": 0.5,
+      "mass_kg": 22.88,
+      "health": 22.88,
+      "pcu": 5,
+      "snapSize": 2,
+      "description": "An open-frame structural element ideal for building frames and support beams.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 1 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Truss_Block_0.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "truss_block_2_5_m",
+      "displayName": "Truss Block 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "truss",
+      "structuralShape": "cube",
+      "size_m": 2.5,
+      "mass_kg": 344.52,
+      "health": 344.52,
+      "pcu": 5,
+      "snapSize": 10,
+      "description": "An open-frame structural element ideal for building frames and support beams.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 10 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Truss_Block_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "stairs_5_m",
+      "displayName": "Stairs 5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "stairs",
+      "structuralShape": "stairs",
+      "size_m": 5,
+      "mass_kg": 1236.37,
+      "health": 1236.37,
+      "pcu": 5,
+      "snapSize": 10,
+      "description": "Connects different levels of a grid, allowing easy movement between floors.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 35 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Stairs_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "ramp_5_m",
+      "displayName": "Ramp 5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "ramp",
+      "structuralShape": "ramp",
+      "size_m": 5,
+      "mass_kg": 1114.59,
+      "health": 1114.59,
+      "pcu": 5,
+      "snapSize": 10,
+      "description": "A sloped surface that allows movement between different levels.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 32 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Ramp_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "cover_wall_half_1_25_m",
+      "displayName": "Cover Wall Half 1.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "cover_wall",
+      "structuralShape": "half",
+      "size_m": 1.25,
+      "mass_kg": 208.64,
+      "health": 208.64,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A defensive wall that provides cover, allowing Space Engineers to duck behind them during combat.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 6 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Cover_Wall_Half_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "half_cover_wall",
+      "displayName": "Half Cover Wall",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "cover_wall",
+      "structuralShape": "half",
+      "size_m": null,
+      "mass_kg": null,
+      "health": null,
+      "pcu": null,
+      "snapSize": null,
+      "description": "A structural block providing solid, opaque, half player-height railings or decorative greebling. Overview/family page — specific size variant not yet documented.",
+      "gameStatus": "planned",
+      "buildComponents": [],
+      "unlock": null,
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Half_Cover_Wall",
+      "dataGaps": ["size_m", "mass_kg", "health", "pcu", "snapSize", "buildComponents (wiki recipe section marked WIP)", "unlock"]
+    },
+    {
+      "id": "pillar",
+      "displayName": "Pillar",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "pillar",
+      "structuralShape": null,
+      "size_m": null,
+      "mass_kg": null,
+      "health": null,
+      "pcu": null,
+      "snapSize": null,
+      "description": "A structural block used for supports, balconies, light attachment, or decoration. Wiki notes four planned size variants (Flat 25 cm, Slope 25 cm, Round 50 cm, Round 100 cm) but individual block pages don't exist yet — only this overview page.",
+      "gameStatus": "planned",
+      "buildComponents": [],
+      "unlock": null,
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Pillar",
+      "dataGaps": ["size_m", "mass_kg", "health", "pcu", "snapSize", "buildComponents (wiki recipe section marked WIP)", "unlock", "per-variant data for the four listed sizes"]
+    },
+    {
+      "id": "stairway",
+      "displayName": "Stairway",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "stairway",
+      "structuralShape": null,
+      "size_m": null,
+      "mass_kg": null,
+      "health": null,
+      "pcu": null,
+      "snapSize": null,
+      "description": "A structural block used for vertical navigation between grid levels. Stub page — no infobox or recipe yet.",
+      "gameStatus": "planned",
+      "buildComponents": [],
+      "unlock": null,
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Stairway",
+      "dataGaps": ["size_m", "mass_kg", "health", "pcu", "snapSize", "buildComponents (wiki recipe section marked WIP)", "unlock"]
     }
   ]
 }
