@@ -1,0 +1,311 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-27",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-27"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Catwalk",
+    "https://spaceengineers2.wiki.gg/wiki/Category:Handrail",
+    "https://spaceengineers2.wiki.gg/wiki/Category:Detailing"
+  ],
+  "notes": "Decorative and walkway structures — bundled because each subgroup is small and they share the same ergonomic profile (cosmetic/structural blocks). 14 entries across three groups: Catwalks (5, grated walkways and stair variants, built from Steel Plate), Handrails (5, edge railings built from Steel Tube), Detailing (4, tiny 0.25 m decorative shapes built from Construction Component). `structuralRole` distinguishes the subgroup; `structuralShape` captures the geometric variant. Health == mass for every entry on the wiki.",
+  "resources": [
+    {
+      "id": "catwalk_corner_base_2_5_m",
+      "displayName": "Catwalk Corner Base 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "catwalk",
+      "structuralShape": "corner_base",
+      "size_m": 2.5,
+      "mass_kg": 146.98,
+      "health": 146.98,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A grated catwalk shape used in walkways and decoration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 4 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Catwalk_Corner_Base_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "catwalk_narrow_base_2_5_m",
+      "displayName": "Catwalk Narrow Base 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "catwalk",
+      "structuralShape": "narrow_base",
+      "size_m": 2.5,
+      "mass_kg": 137.15,
+      "health": 137.15,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A grated catwalk shape used in walkways and decoration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 4 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Catwalk_Narrow_Base_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "catwalk_square_base_2_5_m",
+      "displayName": "Catwalk Square Base 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "catwalk",
+      "structuralShape": "square_base",
+      "size_m": 2.5,
+      "mass_kg": 225,
+      "health": 225,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A grated catwalk shape used in walkways and decoration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 6 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Catwalk_Square_Base_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "catwalk_stairs_narrow_3_5_m",
+      "displayName": "Catwalk Stairs Narrow 3.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "catwalk",
+      "structuralShape": "stairs_narrow",
+      "size_m": 3.5,
+      "mass_kg": 390.74,
+      "health": 390.74,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A grated catwalk shape used in walkways and decoration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 11 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Catwalk_Stairs_Narrow_3.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "catwalk_stairs_wide_3_5_m",
+      "displayName": "Catwalk Stairs Wide 3.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "catwalk",
+      "structuralShape": "stairs_wide",
+      "size_m": 3.5,
+      "mass_kg": 546.44,
+      "health": 546.44,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A grated catwalk shape used in walkways and decoration.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_plate", "qty": 16 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Catwalk_Stairs_Wide_3.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "handrail_1_25_m",
+      "displayName": "Handrail 1.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "handrail",
+      "structuralShape": "straight",
+      "size_m": 1.25,
+      "mass_kg": 69,
+      "health": 69,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A handrail used along walkways and edges for aesthetic and functional purposes.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 14 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Handrail_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "handrail_2_5_m",
+      "displayName": "Handrail 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "handrail",
+      "structuralShape": "straight",
+      "size_m": 2.5,
+      "mass_kg": 116.46,
+      "health": 116.46,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A handrail used along walkways and edges for aesthetic and functional purposes.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 23 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Handrail_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "handrail_corner_1_25_m",
+      "displayName": "Handrail Corner 1.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "handrail",
+      "structuralShape": "corner",
+      "size_m": 1.25,
+      "mass_kg": 107.72,
+      "health": 107.72,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A handrail used along walkways and edges for aesthetic and functional purposes.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 22 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Handrail_Corner_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "handrail_corner_2_5_m",
+      "displayName": "Handrail Corner 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "handrail",
+      "structuralShape": "corner",
+      "size_m": 2.5,
+      "mass_kg": 185.36,
+      "health": 185.36,
+      "pcu": 5,
+      "snapSize": 10,
+      "description": "A handrail used along walkways and edges for aesthetic and functional purposes.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 37 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Handrail_Corner_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "handrail_diagonal_2_5_m",
+      "displayName": "Handrail Diagonal 2.5 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "handrail",
+      "structuralShape": "diagonal",
+      "size_m": 2.5,
+      "mass_kg": 185.36,
+      "health": 185.36,
+      "pcu": 5,
+      "snapSize": 10,
+      "description": "A handrail used along walkways and edges for aesthetic and functional purposes.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "steel_tube", "qty": 37 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Handrail_Diagonal_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "detailing_corner_0_25_m",
+      "displayName": "Detailing Corner 0.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "detailing",
+      "structuralShape": "corner",
+      "size_m": 0.25,
+      "mass_kg": 5,
+      "health": 8,
+      "pcu": 1,
+      "snapSize": 1,
+      "description": "A small decorative piece used to add visual detail to builds.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Detailing_Corner_0.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "detailing_cube_0_25_m",
+      "displayName": "Detailing Cube 0.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "detailing",
+      "structuralShape": "cube",
+      "size_m": 0.25,
+      "mass_kg": 5,
+      "health": 8,
+      "pcu": 1,
+      "snapSize": 1,
+      "description": "A small decorative piece used to add visual detail to builds.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Detailing_Cube_0.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "detailing_inverted_corner_0_25_m",
+      "displayName": "Detailing Inverted Corner 0.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "detailing",
+      "structuralShape": "inverted_corner",
+      "size_m": 0.25,
+      "mass_kg": 5,
+      "health": 8,
+      "pcu": 1,
+      "snapSize": 1,
+      "description": "A small decorative piece used to add visual detail to builds.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Detailing_Inverted_Corner_0.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "detailing_slope_0_25_m",
+      "displayName": "Detailing Slope 0.25 m",
+      "type": "block",
+      "subcategory": "structural",
+      "structuralRole": "detailing",
+      "structuralShape": "slope",
+      "size_m": 0.25,
+      "mass_kg": 5,
+      "health": 8,
+      "pcu": 1,
+      "snapSize": 1,
+      "description": "A small decorative piece used to add visual detail to builds.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "construction_component", "qty": 1 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Detailing_Slope_0.25_m",
+      "dataGaps": []
+    }
+  ]
+}
