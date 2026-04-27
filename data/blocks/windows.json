@@ -1,0 +1,575 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-27",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-27"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Category:Window"
+  ],
+  "notes": "Window blocks. 28 transparent shape variants — flat, slope, curved, triangle, quarter-sphere, slanted-long. All share the same profile: PCU 5, built from Glass only, health = mass (the wiki publishes identical values), snapSize 1 on every variant except Slanted Long Inverted 5 m (snap 10). `windowShape` captures the geometric family. Size class varies: 1.25 m, 2.5 m, 2.75 m, and 5 m. Curved Inward Triangle 2.75 m is the sole entry at the 2.75 m scale.",
+  "resources": [
+    {
+      "id": "window_corner_2_5_m",
+      "displayName": "Window Corner 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "corner",
+      "size_m": 2.5,
+      "mass_kg": 633.21,
+      "health": 633.21,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 32 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Corner_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_corner_with_side_2_5_m",
+      "displayName": "Window Corner with Side 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "corner_with_side",
+      "size_m": 2.5,
+      "mass_kg": 806.03,
+      "health": 806.03,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 40 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Corner_with_Side_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_curved_2_5_m",
+      "displayName": "Window Curved 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "curved",
+      "size_m": 2.5,
+      "mass_kg": 938.56,
+      "health": 938.56,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 47 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Curved_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_curved_inward_triangle_2_75_m",
+      "displayName": "Window Curved Inward Triangle 2.75 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "curved_inward_triangle",
+      "size_m": 2.75,
+      "mass_kg": 460.53,
+      "health": 460.53,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 23 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Curved_Inward_Triangle_2.75_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_curved_with_side_left_2_5_m",
+      "displayName": "Window Curved with Side Left 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "curved_with_side_left",
+      "size_m": 2.5,
+      "mass_kg": 1016.08,
+      "health": 1016.08,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 51 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Curved_with_Side_Left_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_curved_with_side_right_2_5_m",
+      "displayName": "Window Curved with Side Right 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "curved_with_side_right",
+      "size_m": 2.5,
+      "mass_kg": 1016.08,
+      "health": 1016.08,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 51 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Curved_with_Side_Right_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_flat_1_25_m",
+      "displayName": "Window Flat 1.25 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "flat",
+      "size_m": 1.25,
+      "mass_kg": 144.79,
+      "health": 144.79,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 7 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Flat_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_flat_2_5_m",
+      "displayName": "Window Flat 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "flat",
+      "size_m": 2.5,
+      "mass_kg": 405,
+      "health": 405,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 20 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Flat_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_flat_half_2_5_m",
+      "displayName": "Window Flat Half 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "flat_half",
+      "size_m": 2.5,
+      "mass_kg": 245.27,
+      "health": 245.27,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 12 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Flat_Half_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_quarter_sphere_2_5_m",
+      "displayName": "Window Quarter Sphere 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "quarter_sphere",
+      "size_m": 2.5,
+      "mass_kg": 1019.61,
+      "health": 1019.61,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 51 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Quarter_Sphere_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_round_face_2_5_m",
+      "displayName": "Window Round Face 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "round_face",
+      "size_m": 2.5,
+      "mass_kg": 366.81,
+      "health": 366.81,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 18 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Round_Face_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slanted_long_5_m",
+      "displayName": "Window Slanted Long 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slanted_long",
+      "size_m": 5,
+      "mass_kg": 808.04,
+      "health": 808.04,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 40 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slanted_Long_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slanted_long_inverted_5_m",
+      "displayName": "Window Slanted Long Inverted 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slanted_long_inverted",
+      "size_m": 5,
+      "mass_kg": 912.55,
+      "health": 912.55,
+      "pcu": 5,
+      "snapSize": 10,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 46 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slanted_Long_Inverted_5_m",
+      "dataGaps": ["snapSize (wiki reports 10; all other windows are snap 1 — possibly intentional for large inverted slanted pieces, or a wiki error)"]
+    },
+    {
+      "id": "window_slope_1_25_m",
+      "displayName": "Window Slope 1.25 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope",
+      "size_m": 1.25,
+      "mass_kg": 226.8,
+      "health": 226.8,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 11 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slope_2_5_m",
+      "displayName": "Window Slope 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope",
+      "size_m": 2.5,
+      "mass_kg": 633.21,
+      "health": 633.21,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 32 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slope_half_2_5_m",
+      "displayName": "Window Slope Half 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope_half",
+      "size_m": 2.5,
+      "mass_kg": 375.79,
+      "health": 375.79,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 19 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_Half_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slope_long_5_m",
+      "displayName": "Window Slope Long 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope_long",
+      "size_m": 5,
+      "mass_kg": 1010.78,
+      "health": 1010.78,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 51 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_Long_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slope_long_with_side_left_5_m",
+      "displayName": "Window Slope Long with Side Left 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope_long_with_side_left",
+      "size_m": 5,
+      "mass_kg": 1133.98,
+      "health": 1133.98,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 57 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_Long_with_Side_Left_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slope_long_with_side_right_5_m",
+      "displayName": "Window Slope Long with Side Right 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope_long_with_side_right",
+      "size_m": 5,
+      "mass_kg": 1133.98,
+      "health": 1133.98,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 57 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_Long_with_Side_Right_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_slope_with_side_2_5_m",
+      "displayName": "Window Slope With Side 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "slope_with_side",
+      "size_m": 2.5,
+      "mass_kg": 712.8,
+      "health": 712.8,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 36 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Slope_With_Side_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_side_1_25_m",
+      "displayName": "Window Triangle Side 1.25 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_side",
+      "size_m": 1.25,
+      "mass_kg": 96.1,
+      "health": 96.1,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 5 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Side_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_side_2_5_m",
+      "displayName": "Window Triangle Side 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_side",
+      "size_m": 2.5,
+      "mass_kg": 263.14,
+      "health": 263.14,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 13 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Side_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_side_large_5_m",
+      "displayName": "Window Triangle Side Large 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_side_large",
+      "size_m": 5,
+      "mass_kg": 433.21,
+      "health": 433.21,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 22 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Side_Large_5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_slanted_1_25_m",
+      "displayName": "Window Triangle Slanted 1.25 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_slanted",
+      "size_m": 1.25,
+      "mass_kg": 171.07,
+      "health": 171.07,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 9 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Slanted_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_slanted_2_5_m",
+      "displayName": "Window Triangle Slanted 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_slanted",
+      "size_m": 2.5,
+      "mass_kg": 502.62,
+      "health": 502.62,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 25 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Slanted_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_slanted_inverted_1_25_m",
+      "displayName": "Window Triangle Slanted Inverted 1.25 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_slanted_inverted",
+      "size_m": 1.25,
+      "mass_kg": 203.72,
+      "health": 203.72,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 10 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Slanted_Inverted_1.25_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_slanted_inverted_2_5_m",
+      "displayName": "Window Triangle Slanted Inverted 2.5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_slanted_inverted",
+      "size_m": 2.5,
+      "mass_kg": 547.93,
+      "health": 547.93,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 27 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Slanted_Inverted_2.5_m",
+      "dataGaps": []
+    },
+    {
+      "id": "window_triangle_slanted_large_5_m",
+      "displayName": "Window Triangle Slanted Large 5 m",
+      "type": "block",
+      "subcategory": "windows",
+      "windowShape": "triangle_slanted_large",
+      "size_m": 5,
+      "mass_kg": 1135.64,
+      "health": 1135.64,
+      "pcu": 5,
+      "snapSize": 1,
+      "description": "A transparent block that allows light and visibility while providing a barrier between different environments.",
+      "gameStatus": "active",
+      "buildComponents": [
+        { "id": "glass", "qty": 57 }
+      ],
+      "unlock": "Unlocked by default in all survival worlds",
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Window_Triangle_Slanted_Large_5_m",
+      "dataGaps": []
+    }
+  ]
+}
