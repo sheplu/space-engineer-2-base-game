@@ -36,6 +36,7 @@ individually.
 | Blocks — furniture | [`data/blocks/furniture.json`](./data/blocks/furniture.json) | Bed, Toilet (2 entries, all planned) |
 | Blocks — armor (light) | [`data/blocks/armor-light.json`](./data/blocks/armor-light.json) | Light Armor shape variants — cube, slope, corner, transition, wide-half, mirrored pairs, in 0.5 m / 2.5 m (plus 0.25 m / 1.25 m half-corner) (46 entries) |
 | Blocks — armor (heavy) | [`data/blocks/armor-heavy.json`](./data/blocks/armor-heavy.json) | Heavy Armor shape variants — same 23 shapes as light armor, built from Heavy-Duty Plate instead of Steel Plate (46 entries) |
+| Blocks — windows | [`data/blocks/windows.json`](./data/blocks/windows.json) | Transparent window shape variants — flat, slope, curved, triangle, quarter-sphere, slanted-long; 1.25 m / 2.5 m / 2.75 m / 5 m (28 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
