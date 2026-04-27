@@ -33,7 +33,7 @@ individually.
 | Blocks — controls | [`data/blocks/controls.json`](./data/blocks/controls.json) | Button, Button Panel (2 entries, all planned) |
 | Blocks — terminals | [`data/blocks/terminals.json`](./data/blocks/terminals.json) | Contract Terminal, Trade Terminal (2 entries) |
 | Blocks — doors | [`data/blocks/doors.json`](./data/blocks/doors.json) | Narrow Sliding Door (1 entry) |
-| Blocks — furniture | [`data/blocks/furniture.json`](./data/blocks/furniture.json) | Bed, Toilet (2 entries, all planned) |
+| Blocks — furniture | [`data/blocks/furniture.json`](./data/blocks/furniture.json) | Interior/crew-quarter furniture — Bed, Toilet, Table, Shower, Sink, Deck Panel, Desk (7 entries; Bed/Toilet/Desk are planned stubs) |
 | Blocks — armor (light) | [`data/blocks/armor-light.json`](./data/blocks/armor-light.json) | Light Armor shape variants — cube, slope, corner, transition, wide-half, mirrored pairs, in 0.5 m / 2.5 m (plus 0.25 m / 1.25 m half-corner) (46 entries) |
 | Blocks — armor (heavy) | [`data/blocks/armor-heavy.json`](./data/blocks/armor-heavy.json) | Heavy Armor shape variants — same 23 shapes as light armor, built from Heavy-Duty Plate instead of Steel Plate (46 entries) |
 | Blocks — windows | [`data/blocks/windows.json`](./data/blocks/windows.json) | Transparent window shape variants — flat, slope, curved, triangle, quarter-sphere, slanted-long; 1.25 m / 2.5 m / 2.75 m / 5 m (28 entries) |
