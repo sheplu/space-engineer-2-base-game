@@ -4,6 +4,9 @@
   "description": "Central machine-readable reference for Space Engineers 2 base-game data.",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "quality": "node scripts/quality.mjs",
