@@ -58,6 +58,16 @@ components (`pressure_pipe`, `heavy_duty_plate`, `combustion_chamber`) produced
 by the Assembler 5 m but not yet modeled here; they are listed under each
 item's `dataGaps`.
 
+## Index
+
+`index.json` at the repo root is a machine-readable directory of every dataset
+in this repo — path, version, entry count, category. Mod consumers can fetch
+this single file to discover everything without scraping the directory tree.
+
+```bash
+curl -sSL https://raw.githubusercontent.com/<org>/space-engineer-2-base-game/main/index.json
+```
+
 ## Schema
 
 Each dataset file follows the same envelope:
@@ -71,6 +81,21 @@ Each dataset file follows the same envelope:
   "notes": "...",
   "resources": [ /* records */ ]
 }
+```
+
+JSON Schemas (draft 2020-12) live in [`schemas/`](./schemas/):
+
+- `envelope.schema.json` — the shared wrapper
+- `resource-raw.schema.json` — raw-resources records (ores, Ice, Stone)
+- `resource-item.schema.json` — refinery products, components, character gear, ammunition, power cells
+- `resource-block.schema.json` — all block records under `data/blocks/**`
+- `index.schema.json` — the root `index.json`
+
+Run the bundled validator to check every dataset against its schema:
+
+```bash
+npm install
+npm run validate
 ```
 
 Per-record fields for raw resources: `id`, `displayName`, `type`

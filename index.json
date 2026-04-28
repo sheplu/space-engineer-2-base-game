@@ -1,0 +1,301 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-28",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-28"
+  },
+  "notes": "Machine-readable index of every dataset in this repo. Consumers can fetch this single file to discover available datasets without scraping the directory tree. Each entry lists the path, dataset version, entry count, and the category/subcategory of blocks or items contained. Paths are repo-relative — prepend the raw-content URL to fetch. `totalEntries` is the sum across all datasets; useful as a cheap staleness signal.",
+  "totalEntries": 335,
+  "datasets": [
+    {
+      "id": "raw-resources",
+      "path": "data/raw-resources.json",
+      "category": "resources",
+      "subcategory": "raw",
+      "description": "Ores, Ice, Stone — natural materials pulled from the world.",
+      "version": "1.0.0",
+      "entryCount": 15
+    },
+    {
+      "id": "refinery-products",
+      "path": "data/refinery-products.json",
+      "category": "resources",
+      "subcategory": "refined",
+      "description": "Items crafted from ores in the Refinery 7.5 m.",
+      "version": "1.0.0",
+      "entryCount": 9
+    },
+    {
+      "id": "components-simple",
+      "path": "data/components/simple.json",
+      "category": "components",
+      "subcategory": "simple",
+      "description": "Smelter 2.5 m / Backpack Building outputs.",
+      "version": "1.0.0",
+      "entryCount": 13
+    },
+    {
+      "id": "components-complex",
+      "path": "data/components/complex.json",
+      "category": "components",
+      "subcategory": "complex",
+      "description": "Assembler 5 m outputs.",
+      "version": "1.0.0",
+      "entryCount": 10
+    },
+    {
+      "id": "components-high-tech",
+      "path": "data/components/high-tech.json",
+      "category": "components",
+      "subcategory": "high-tech",
+      "description": "Fabricator 10 m outputs.",
+      "version": "1.0.0",
+      "entryCount": 7
+    },
+    {
+      "id": "character-gear",
+      "path": "data/character-gear.json",
+      "category": "character",
+      "subcategory": "gear",
+      "description": "Tools, weapons, consumables crafted in the Gearforge 2.5 m.",
+      "version": "1.0.0",
+      "entryCount": 19
+    },
+    {
+      "id": "ammunition",
+      "path": "data/ammunition.json",
+      "category": "character",
+      "subcategory": "ammunition",
+      "description": "Gatling Ammo Box, Rifle Magazine, Rocket.",
+      "version": "1.0.0",
+      "entryCount": 3
+    },
+    {
+      "id": "blocks-production-crafting",
+      "path": "data/blocks/production/crafting.json",
+      "category": "blocks",
+      "subcategory": "production/crafting",
+      "description": "Smelter, Gearforge, Refinery, Assembler, Fabricator.",
+      "version": "1.0.0",
+      "entryCount": 5
+    },
+    {
+      "id": "blocks-production-gas",
+      "path": "data/blocks/production/gas.json",
+      "category": "blocks",
+      "subcategory": "production/gas",
+      "description": "O2/H2 Generators.",
+      "version": "1.0.0",
+      "entryCount": 2
+    },
+    {
+      "id": "blocks-power-generation",
+      "path": "data/blocks/power/generation.json",
+      "category": "blocks",
+      "subcategory": "power/generation",
+      "description": "Reactors, batteries, solar panels.",
+      "version": "1.0.0",
+      "entryCount": 7
+    },
+    {
+      "id": "blocks-power-cells",
+      "path": "data/blocks/power/cells.json",
+      "category": "blocks",
+      "subcategory": "power/cells",
+      "description": "Swappable battery internals (Power Cell, Power Module).",
+      "version": "1.0.0",
+      "entryCount": 2
+    },
+    {
+      "id": "blocks-tools",
+      "path": "data/blocks/tools.json",
+      "category": "blocks",
+      "subcategory": "tools",
+      "description": "Ship-mounted drills, grinders, welders.",
+      "version": "1.0.0",
+      "entryCount": 6
+    },
+    {
+      "id": "blocks-thrusters",
+      "path": "data/blocks/thrusters.json",
+      "category": "blocks",
+      "subcategory": "thrusters",
+      "description": "Atmospheric, ion, and hydrogen thrusters.",
+      "version": "1.0.0",
+      "entryCount": 12
+    },
+    {
+      "id": "blocks-storage-containers",
+      "path": "data/blocks/storage/containers.json",
+      "category": "blocks",
+      "subcategory": "storage/containers",
+      "description": "Cargo containers, hydrogen/oxygen tanks, locker/crate/barrel.",
+      "version": "1.0.0",
+      "entryCount": 10
+    },
+    {
+      "id": "blocks-storage-conveyors",
+      "path": "data/blocks/storage/conveyors.json",
+      "category": "blocks",
+      "subcategory": "storage/conveyors",
+      "description": "Conveyor pipes, junctions, sorters, adaptors.",
+      "version": "1.0.0",
+      "entryCount": 17
+    },
+    {
+      "id": "blocks-weapons",
+      "path": "data/blocks/weapons.json",
+      "category": "blocks",
+      "subcategory": "weapons",
+      "description": "Gatling Cannon, Gatling Turret.",
+      "version": "1.0.0",
+      "entryCount": 2
+    },
+    {
+      "id": "blocks-mechanical",
+      "path": "data/blocks/mechanical.json",
+      "category": "blocks",
+      "subcategory": "mechanical",
+      "description": "Pistons, rotors, gyroscopes + their heads.",
+      "version": "1.0.0",
+      "entryCount": 11
+    },
+    {
+      "id": "blocks-detection",
+      "path": "data/blocks/detection.json",
+      "category": "blocks",
+      "subcategory": "detection",
+      "description": "Antennas, ore detectors.",
+      "version": "1.0.0",
+      "entryCount": 4
+    },
+    {
+      "id": "blocks-docking",
+      "path": "data/blocks/docking.json",
+      "category": "blocks",
+      "subcategory": "docking",
+      "description": "Landing Gear, Connectors.",
+      "version": "1.0.0",
+      "entryCount": 4
+    },
+    {
+      "id": "blocks-gravity",
+      "path": "data/blocks/gravity.json",
+      "category": "blocks",
+      "subcategory": "gravity",
+      "description": "Gravity Generator 5 m.",
+      "version": "1.0.0",
+      "entryCount": 1
+    },
+    {
+      "id": "blocks-control-cockpits",
+      "path": "data/blocks/control/cockpits.json",
+      "category": "blocks",
+      "subcategory": "control/cockpits",
+      "description": "Cockpit, Control Seat, Seat.",
+      "version": "1.0.0",
+      "entryCount": 3
+    },
+    {
+      "id": "blocks-control-controls",
+      "path": "data/blocks/control/controls.json",
+      "category": "blocks",
+      "subcategory": "control/controls",
+      "description": "Button, Button Panel (planned stubs).",
+      "version": "1.0.0",
+      "entryCount": 2
+    },
+    {
+      "id": "blocks-control-terminals",
+      "path": "data/blocks/control/terminals.json",
+      "category": "blocks",
+      "subcategory": "control/terminals",
+      "description": "Contract Terminal, Trade Terminal.",
+      "version": "1.0.0",
+      "entryCount": 2
+    },
+    {
+      "id": "blocks-lights",
+      "path": "data/blocks/lights.json",
+      "category": "blocks",
+      "subcategory": "lights",
+      "description": "Interior / corner lights + spotlights.",
+      "version": "1.0.0",
+      "entryCount": 5
+    },
+    {
+      "id": "blocks-life-support",
+      "path": "data/blocks/life-support.json",
+      "category": "blocks",
+      "subcategory": "life-support",
+      "description": "Survival Kit, Medical Room.",
+      "version": "1.0.0",
+      "entryCount": 3
+    },
+    {
+      "id": "blocks-doors",
+      "path": "data/blocks/doors.json",
+      "category": "blocks",
+      "subcategory": "doors",
+      "description": "Narrow Sliding Door.",
+      "version": "1.0.0",
+      "entryCount": 1
+    },
+    {
+      "id": "blocks-furniture",
+      "path": "data/blocks/furniture.json",
+      "category": "blocks",
+      "subcategory": "furniture",
+      "description": "Bed, Toilet, Table, Shower, Sink, Deck Panel, Desk (some planned).",
+      "version": "1.1.0",
+      "entryCount": 7
+    },
+    {
+      "id": "blocks-armor-light",
+      "path": "data/blocks/armor/light.json",
+      "category": "blocks",
+      "subcategory": "armor/light",
+      "description": "Light Armor shape variants (Steel Plate).",
+      "version": "1.0.0",
+      "entryCount": 46
+    },
+    {
+      "id": "blocks-armor-heavy",
+      "path": "data/blocks/armor/heavy.json",
+      "category": "blocks",
+      "subcategory": "armor/heavy",
+      "description": "Heavy Armor shape variants (Heavy-Duty Plate).",
+      "version": "1.0.0",
+      "entryCount": 46
+    },
+    {
+      "id": "blocks-structures-windows",
+      "path": "data/blocks/structures/windows.json",
+      "category": "blocks",
+      "subcategory": "structures/windows",
+      "description": "Transparent window shape variants (Glass).",
+      "version": "1.0.0",
+      "entryCount": 28
+    },
+    {
+      "id": "blocks-structures-structural",
+      "path": "data/blocks/structures/structural.json",
+      "category": "blocks",
+      "subcategory": "structures/structural",
+      "description": "Catwalks, handrails, detailing, structural support, truss, stairs/ramp, cover wall.",
+      "version": "1.1.0",
+      "entryCount": 24
+    },
+    {
+      "id": "blocks-structures-interior-walls",
+      "path": "data/blocks/structures/interior-walls.json",
+      "category": "blocks",
+      "subcategory": "structures/interior-walls",
+      "description": "Interior partition walls — flat, corner, pillar variants.",
+      "version": "1.0.0",
+      "entryCount": 9
+    }
+  ]
+}
