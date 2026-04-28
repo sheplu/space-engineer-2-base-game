@@ -10,42 +10,47 @@ individually.
 | --- | --- | --- |
 | Raw resources | [`data/raw-resources.json`](./data/raw-resources.json) | 13 ores + Ice + Stone (15 entries) |
 | Refinery products | [`data/refinery-products.json`](./data/refinery-products.json) | Items crafted from ores in the Refinery 7.5 m (9 entries) |
-| Simple components | [`data/simple-components.json`](./data/simple-components.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
-| Complex components | [`data/complex-components.json`](./data/complex-components.json) | Items crafted in the Assembler 5 m (10 entries) |
-| High-tech components | [`data/high-tech-components.json`](./data/high-tech-components.json) | Items crafted in the Fabricator 10 m (7 entries) |
-| Power cells | [`data/power-cells.json`](./data/power-cells.json) | Swappable battery internals — Power Cell (active), Power Module (disabled) (2 entries) |
+| Components — simple | [`data/components/simple.json`](./data/components/simple.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
+| Components — complex | [`data/components/complex.json`](./data/components/complex.json) | Items crafted in the Assembler 5 m (10 entries) |
+| Components — high-tech | [`data/components/high-tech.json`](./data/components/high-tech.json) | Items crafted in the Fabricator 10 m (7 entries) |
 | Character gear | [`data/character-gear.json`](./data/character-gear.json) | Tools, weapons, and consumables crafted in the Gearforge 2.5 m (19 entries) |
-| Blocks — production | [`data/blocks/production.json`](./data/blocks/production.json) | Smelter, Gearforge, Refinery, Assembler, Fabricator (5 entries) |
-| Blocks — power | [`data/blocks/power.json`](./data/blocks/power.json) | Reactors, batteries, solar panels (7 entries) |
+| Blocks — production / crafting | [`data/blocks/production/crafting.json`](./data/blocks/production/crafting.json) | Smelter, Gearforge, Refinery, Assembler, Fabricator (5 entries) |
+| Blocks — power / generation | [`data/blocks/power/generation.json`](./data/blocks/power/generation.json) | Reactors, batteries, solar panels (7 entries) |
+| Blocks — power / cells | [`data/blocks/power/cells.json`](./data/blocks/power/cells.json) | Swappable battery internals — Power Cell (active), Power Module (disabled) (2 entries) |
 | Blocks — tools | [`data/blocks/tools.json`](./data/blocks/tools.json) | Ship-mounted drills, grinders, welders (6 entries) |
 | Blocks — thrusters | [`data/blocks/thrusters.json`](./data/blocks/thrusters.json) | Atmospheric, ion, and hydrogen thrusters (12 entries) |
-| Blocks — storage | [`data/blocks/storage.json`](./data/blocks/storage.json) | Cargo containers, hydrogen/oxygen tanks, locker/crate/barrel (10 entries) |
+| Blocks — storage / containers | [`data/blocks/storage/containers.json`](./data/blocks/storage/containers.json) | Cargo containers, hydrogen/oxygen tanks, locker/crate/barrel (10 entries) |
+| Blocks — storage / conveyors | [`data/blocks/storage/conveyors.json`](./data/blocks/storage/conveyors.json) | Conveyor pipes, junctions, sorters, adaptors (17 entries) |
 | Blocks — weapons | [`data/blocks/weapons.json`](./data/blocks/weapons.json) | Gatling Cannon, Gatling Turret (2 entries) |
-| Blocks — gas production | [`data/blocks/gas-production.json`](./data/blocks/gas-production.json) | O2/H2 Generators (2 entries) |
-| Blocks — conveyors | [`data/blocks/conveyors.json`](./data/blocks/conveyors.json) | Conveyor pipes, junctions, sorters, adaptors (17 entries) |
+| Blocks — production / gas | [`data/blocks/production/gas.json`](./data/blocks/production/gas.json) | O2/H2 Generators (2 entries) |
 | Blocks — mechanical | [`data/blocks/mechanical.json`](./data/blocks/mechanical.json) | Pistons, rotors, gyroscopes + their heads (11 entries) |
 | Blocks — detection | [`data/blocks/detection.json`](./data/blocks/detection.json) | Antennas, ore detectors (4 entries) |
 | Blocks — docking | [`data/blocks/docking.json`](./data/blocks/docking.json) | Landing Gear, Connectors (4 entries) |
 | Blocks — gravity | [`data/blocks/gravity.json`](./data/blocks/gravity.json) | Gravity Generator 5 m (1 entry) |
-| Blocks — cockpits | [`data/blocks/cockpits.json`](./data/blocks/cockpits.json) | Cockpit, Control Seat, Seat (3 entries) |
+| Blocks — control / cockpits | [`data/blocks/control/cockpits.json`](./data/blocks/control/cockpits.json) | Cockpit, Control Seat, Seat (3 entries) |
 | Blocks — lights | [`data/blocks/lights.json`](./data/blocks/lights.json) | Interior / corner lights + spotlights (5 entries) |
 | Blocks — life support | [`data/blocks/life-support.json`](./data/blocks/life-support.json) | Survival Kit, Medical Room (3 entries) |
-| Blocks — controls | [`data/blocks/controls.json`](./data/blocks/controls.json) | Button, Button Panel (2 entries, all planned) |
-| Blocks — terminals | [`data/blocks/terminals.json`](./data/blocks/terminals.json) | Contract Terminal, Trade Terminal (2 entries) |
+| Blocks — control / controls | [`data/blocks/control/controls.json`](./data/blocks/control/controls.json) | Button, Button Panel (2 entries, all planned) |
+| Blocks — control / terminals | [`data/blocks/control/terminals.json`](./data/blocks/control/terminals.json) | Contract Terminal, Trade Terminal (2 entries) |
 | Blocks — doors | [`data/blocks/doors.json`](./data/blocks/doors.json) | Narrow Sliding Door (1 entry) |
 | Blocks — furniture | [`data/blocks/furniture.json`](./data/blocks/furniture.json) | Interior/crew-quarter furniture — Bed, Toilet, Table, Shower, Sink, Deck Panel, Desk (7 entries; Bed/Toilet/Desk are planned stubs) |
-| Blocks — armor (light) | [`data/blocks/armor-light.json`](./data/blocks/armor-light.json) | Light Armor shape variants — cube, slope, corner, transition, wide-half, mirrored pairs, in 0.5 m / 2.5 m (plus 0.25 m / 1.25 m half-corner) (46 entries) |
-| Blocks — armor (heavy) | [`data/blocks/armor-heavy.json`](./data/blocks/armor-heavy.json) | Heavy Armor shape variants — same 23 shapes as light armor, built from Heavy-Duty Plate instead of Steel Plate (46 entries) |
-| Blocks — windows | [`data/blocks/windows.json`](./data/blocks/windows.json) | Transparent window shape variants — flat, slope, curved, triangle, quarter-sphere, slanted-long; 1.25 m / 2.5 m / 2.75 m / 5 m (28 entries) |
-| Blocks — structural | [`data/blocks/structural.json`](./data/blocks/structural.json) | Catwalks, handrails, detailing, structural support, truss blocks, stairs/ramp, cover wall (24 entries) |
-| Blocks — interior walls | [`data/blocks/interior-walls.json`](./data/blocks/interior-walls.json) | Room-partition walls — flat, corner, flat-half, corner-with-side, plus four pillar variants; all 2.5 m (9 entries) |
+| Blocks — armor / light | [`data/blocks/armor/light.json`](./data/blocks/armor/light.json) | Light Armor shape variants — cube, slope, corner, transition, wide-half, mirrored pairs, in 0.5 m / 2.5 m (plus 0.25 m / 1.25 m half-corner) (46 entries) |
+| Blocks — armor / heavy | [`data/blocks/armor/heavy.json`](./data/blocks/armor/heavy.json) | Heavy Armor shape variants — same 23 shapes as light armor, built from Heavy-Duty Plate instead of Steel Plate (46 entries) |
+| Blocks — structures / windows | [`data/blocks/structures/windows.json`](./data/blocks/structures/windows.json) | Transparent window shape variants — flat, slope, curved, triangle, quarter-sphere, slanted-long; 1.25 m / 2.5 m / 2.75 m / 5 m (28 entries) |
+| Blocks — structures / structural | [`data/blocks/structures/structural.json`](./data/blocks/structures/structural.json) | Catwalks, handrails, detailing, structural support, truss blocks, stairs/ramp, cover wall (24 entries) |
+| Blocks — structures / interior walls | [`data/blocks/structures/interior-walls.json`](./data/blocks/structures/interior-walls.json) | Room-partition walls — flat, corner, flat-half, corner-with-side, plus four pillar variants; all 2.5 m (9 entries) |
 | Ammunition | [`data/ammunition.json`](./data/ammunition.json) | Gatling Ammo Box, Rifle Magazine, Rocket (3 entries) |
 
 Blocks live under `data/blocks/<subcategory>.json` — split by function
-(production, energy, tools, thrusters, storage, etc.) rather than one
-276-entry file. Block records use a different recipe shape: `buildComponents`
-(on-site welding) instead of `recipes`, plus block-specific fields like
-`size_m`, `pcu`, `snapSize`, `power`, `production`, `inventory`, `unlock`.
+(production, tools, thrusters, mechanical, etc.) rather than one
+276-entry file. Some buckets group related subcategories into a folder:
+`data/blocks/storage/` holds containers + conveyors, and
+`data/blocks/power/` holds generation + swappable cells. Craftable items
+(non-blocks) live at `data/components/` (simple, complex, high-tech tiers)
+and `data/` (raw-resources, refinery-products, character-gear, ammunition).
+Block records use a different recipe shape: `buildComponents` (on-site
+welding) instead of `recipes`, plus block-specific fields like `size_m`,
+`pcu`, `snapSize`, `power`, `production`, `inventory`, `unlock`.
 
 Character gear records include a `subcategory` field
 (`"tool" | "weapon" | "consumable"`). A few gear recipes reference complex
@@ -90,6 +95,8 @@ Fields with no published value are `null`, and the field name is added to
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/<org>/space-engineer-2-base-game/main/data/raw-resources.json
+curl -sSL https://raw.githubusercontent.com/<org>/space-engineer-2-base-game/main/data/components/simple.json
+curl -sSL https://raw.githubusercontent.com/<org>/space-engineer-2-base-game/main/data/blocks/storage/containers.json
 ```
 
 Or with `jq`:
