@@ -5,7 +5,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "quality": "node scripts/quality.mjs",
+    "check": "npm run validate && npm run quality"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

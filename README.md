@@ -91,11 +91,13 @@ JSON Schemas (draft 2020-12) live in [`schemas/`](./schemas/):
 - `resource-block.schema.json` — all block records under `data/blocks/**`
 - `index.schema.json` — the root `index.json`
 
-Run the bundled validator to check every dataset against its schema:
+Run the bundled checks:
 
 ```bash
 npm install
-npm run validate
+npm run validate   # schema shape for every dataset + index.json
+npm run quality    # cross-ref resolution, id uniqueness, orphan detection
+npm run check      # both
 ```
 
 Per-record fields for raw resources: `id`, `displayName`, `type`
