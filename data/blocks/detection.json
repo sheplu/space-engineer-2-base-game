@@ -69,12 +69,13 @@
       "health": 81.06,
       "pcu": 60,
       "snapSize": 2,
-      "description": "Detects natural resources (raw ores) on asteroids and planets. Typically paired with drills for mining operations; markers can be broadcast via an attached antenna.",
+      "description": "Detects nearby ore deposits, essential for locating new materials. Broadcasting ore markers requires an antenna on the grid. Without one, markers are only visible when you're seated in that grid.",
       "gameStatus": "active",
       "buildComponents": [
-        { "id": "electronic_parts", "qty": 1 },
         { "id": "construction_component", "qty": 4 },
-        { "id": "wire", "qty": 2 }
+        { "id": "electronic_parts", "qty": 1 },
+        { "id": "wire", "qty": 2 },
+        { "id": "steel_plate", "qty": 3 }
       ],
       "power": { "maxInput": 0, "unitAsPublished": null },
       "scan": {

@@ -26,16 +26,20 @@
       "gameStatus": "active",
       "buildComponents": [
         {
-          "id": "wire",
-          "qty": 1
+          "id": "heavy_duty_plate",
+          "qty": 14
+        },
+        {
+          "id": "reactor_core",
+          "qty": 4
         },
         {
           "id": "motherboard",
           "qty": 1
         },
         {
-          "id": "reactor_core",
-          "qty": 4
+          "id": "wire",
+          "qty": 1
         }
       ],
       "power": {
@@ -117,12 +121,12 @@
       "gameStatus": "active",
       "buildComponents": [
         {
-          "id": "electronic_parts",
-          "qty": 3
+          "id": "construction_component",
+          "qty": 9
         },
         {
-          "id": "construction_component",
-          "qty": 7
+          "id": "electronic_parts",
+          "qty": 1
         }
       ],
       "power": {

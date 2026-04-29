@@ -22,7 +22,7 @@
       "health": 780.04,
       "pcu": 50,
       "snapSize": 2,
-      "description": "Allows Space Engineers to be revived and heal when powered and activated. The starter respawn/life-support block.",
+      "description": "Allows Space Engineers to be revived and heal when powered and activated, critical for survival.",
       "gameStatus": "active",
       "buildComponents": [
         { "id": "steel_plate", "qty": 21 },
