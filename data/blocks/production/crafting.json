@@ -9,7 +9,7 @@
   "sources": [
     "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
   ],
-  "notes": "Production blocks turn raw/intermediate inputs into items. Unlike items, blocks are welded on-site from components (no single 'producedBy' building) — the `buildComponents` array lists everything needed for full integrity, summing the initial + second-phase quantities shown on the wiki. Power values use the wiki's raw unit ('electricity' — no kW/MW annotation is published, so we store the integer and flag the unit under dataGaps).",
+  "notes": "Production blocks turn raw/intermediate inputs into items. Unlike items, blocks are welded on-site from components (no single 'producedBy' building) — the `buildComponents` array lists the totals shown in the in-game Build panel for full integrity. Power values use the wiki's raw unit ('electricity' — no kW/MW annotation is published, so we store the integer and flag the unit under dataGaps).",
   "resources": [
     {
       "id": "smelter_2_5_m",
@@ -26,19 +26,15 @@
       "buildComponents": [
         {
           "id": "steel_plate",
-          "qty": 42
+          "qty": 35
         },
         {
           "id": "motor",
-          "qty": 12
+          "qty": 28
         },
         {
           "id": "electronic_parts",
-          "qty": 3
-        },
-        {
-          "id": "wire",
-          "qty": 3
+          "qty": 7
         }
       ],
       "power": {
@@ -92,12 +88,16 @@
           "qty": 28
         },
         {
+          "id": "motor",
+          "qty": 8
+        },
+        {
           "id": "electronic_parts",
           "qty": 2
         },
         {
-          "id": "motor",
-          "qty": 8
+          "id": "metal_grid",
+          "qty": 2
         }
       ],
       "power": {
@@ -152,6 +152,10 @@
       "description": "Processes raw ores into refined materials that can be used for construction and production.",
       "gameStatus": "active",
       "buildComponents": [
+        {
+          "id": "heavy_duty_plate",
+          "qty": 50
+        },
         {
           "id": "compressor",
           "qty": 8
@@ -268,16 +272,20 @@
       "gameStatus": "active",
       "buildComponents": [
         {
-          "id": "platinum_electrode",
-          "qty": 2
+          "id": "heavy_duty_plate",
+          "qty": 100
+        },
+        {
+          "id": "compressor",
+          "qty": 16
         },
         {
           "id": "titanium_sheet",
           "qty": 2
         },
         {
-          "id": "compressor",
-          "qty": 16
+          "id": "platinum_electrode",
+          "qty": 2
         }
       ],
       "power": {
