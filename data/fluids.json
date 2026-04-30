@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-30",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-30"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Water",
+    "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_1.5_m",
+    "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_5_m"
+  ],
+  "notes": "Environmental fluids. Currently limited to Water, a planned mechanic arriving in vertical slice VS3. The O2/H2 Generator entries already list 'water' as an input; the entry here closes that cross-reference. The wiki page for Water is prose-only (no infobox) and explicitly states it will require a new save when VS3 arrives. Planet-level biome data is not yet published — Verdure will ship with oceans, lakes, and coasts, and Byblos is described as a 'mysterious planned water planet' with details TBD.",
+  "resources": [
+    {
+      "id": "water",
+      "displayName": "Water",
+      "type": "fluid",
+      "mass_kg": null,
+      "volume_liters": null,
+      "stackable": null,
+      "divisible": null,
+      "description": "Planned liquid resource arriving in vertical slice VS3. Will be electrolysed alongside ice by O2/H2 Generators to produce hydrogen and oxygen. Verdure will feature oceans, lakes, and coasts from VS3 onward; Byblos is described as a mysterious planned water planet with further details TBD. Introducing water will require starting a new save.",
+      "gameStatus": "planned",
+      "producedBy": [],
+      "consumedBy": [
+        "o2_h2_generator_1_5_m",
+        "o2_h2_generator_5_m"
+      ],
+      "storedIn": [],
+      "locations": {
+        "planets": [
+          {
+            "name": "Verdure",
+            "biomes": []
+          },
+          {
+            "name": "Byblos",
+            "biomes": []
+          }
+        ],
+        "asteroidFields": []
+      },
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Water",
+      "dataGaps": [
+        "mass_kg",
+        "volume_liters",
+        "stackable",
+        "divisible",
+        "locations.planets[*].biomes (VS3 biome-level placement not published)",
+        "storedIn (no water-storage block announced)",
+        "wiki page is prose-only and explicitly marks Water as a planned mechanic"
+      ]
+    }
+  ]
+}

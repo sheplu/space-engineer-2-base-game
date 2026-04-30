@@ -9,6 +9,8 @@ individually.
 | Dataset | Path | Contents |
 | --- | --- | --- |
 | Raw resources | [`data/raw-resources.json`](./data/raw-resources.json) | 13 ores + Ice + Stone (15 entries) |
+| Gases | [`data/gases.json`](./data/gases.json) | Hydrogen, Oxygen (2 entries) |
+| Fluids | [`data/fluids.json`](./data/fluids.json) | Water — planned for VS3 (1 entry) |
 | Refinery products | [`data/refinery-products.json`](./data/refinery-products.json) | Items crafted from ores in the Refinery 7.5 m (9 entries) |
 | Components — simple | [`data/components/simple.json`](./data/components/simple.json) | Items crafted in the Smelter 2.5 m or via Backpack Building (13 entries) |
 | Components — complex | [`data/components/complex.json`](./data/components/complex.json) | Items crafted in the Assembler 5 m (10 entries) |
@@ -87,6 +89,7 @@ JSON Schemas (draft 2020-12) live in [`schemas/`](./schemas/):
 
 - `envelope.schema.json` — the shared wrapper
 - `resource-raw.schema.json` — raw-resources records (ores, Ice, Stone)
+- `resource-fluid-gas.schema.json` — gases and fluids records (Hydrogen, Oxygen, Water)
 - `resource-item.schema.json` — refinery products, components, character gear, ammunition, power cells
 - `resource-block.schema.json` — all block records under `data/blocks/**`
 - `index.schema.json` — the root `index.json`

@@ -9,7 +9,7 @@
   "sources": [
     "https://spaceengineers2.wiki.gg/wiki/Category:Utility"
   ],
-  "notes": "Blocks that produce or process gases. Currently limited to O2/H2 Generators, which electrolyse ice (and water) into hydrogen and oxygen. These were deliberately excluded from blocks/power.json because they neither produce nor store electricity. Gas tanks live in blocks/storage.json. Build-component quantities are totals (initial + extra welding phases). Gas output rates are published without an explicit unit — stored as raw numbers with gasOutput.unitAsPublished = null. Wiki reports power.maxInput = 0 for both generators; this is almost certainly a wiki omission (electrolysis requires energy) and is flagged in dataGaps.",
+  "notes": "Blocks that produce or process gases. Currently limited to O2/H2 Generators, which electrolyse ice (and water) into hydrogen and oxygen. These were deliberately excluded from blocks/power.json because they neither produce nor store electricity. Gas tanks live in blocks/storage.json. Ingredient ids (ice, water) resolve into data/raw-resources.json and data/fluids.json; output ids (hydrogen, oxygen) resolve into data/gases.json. Build-component quantities are totals (initial + extra welding phases). Gas output rates are published without an explicit unit — stored as raw numbers with gasOutput.unitAsPublished = null. Wiki reports power.maxInput = 0 for both generators; this is almost certainly a wiki omission (electrolysis requires energy) and is flagged in dataGaps.",
   "resources": [
     {
       "id": "o2_h2_generator_1_5_m",
@@ -58,8 +58,7 @@
       "wiki": "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_1.5_m",
       "dataGaps": [
         "power.maxInput (wiki reports 0, almost certainly an oversight)",
-        "gasOutput.unitAsPublished",
-        "inputs:water (no water resource yet modeled)"
+        "gasOutput.unitAsPublished"
       ]
     },
     {
@@ -113,8 +112,7 @@
       "wiki": "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_5_m",
       "dataGaps": [
         "power.maxInput (wiki reports 0, almost certainly an oversight)",
-        "gasOutput.unitAsPublished",
-        "inputs:water (no water resource yet modeled)"
+        "gasOutput.unitAsPublished"
       ]
     }
   ]
