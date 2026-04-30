@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/sheplu/space-engineer-2-base-game/main/schemas/resource-fluid-gas.schema.json",
+  "title": "SE2 Fluid or Gas Record",
+  "description": "Record shape for data/gases.json and data/fluids.json. These resources are referenced widely by blocks (O2/H2 Generator inputs, hydrogen thrusters' fuel, gas tanks' contents, life-support restoration) but the wiki does not publish mass/volume/stack properties for them — most infobox-style fields are null and flagged in dataGaps. `producedBy` / `consumedBy` / `storedIn` close the cross-reference graph by listing the block ids that produce, consume, or store the resource. `locations` is typically null for gases but populated for natural fluids like water.",
+  "type": "object",
+  "required": [
+    "id",
+    "displayName",
+    "type",
+    "mass_kg",
+    "volume_liters",
+    "stackable",
+    "divisible",
+    "description",
+    "gameStatus",
+    "producedBy",
+    "consumedBy",
+    "storedIn",
+    "locations",
+    "wiki",
+    "dataGaps"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "snake_case stable key used by other datasets to reference this entry."
+    },
+    "displayName": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["gas", "fluid"]
+    },
+    "mass_kg": { "type": ["number", "null"], "minimum": 0 },
+    "volume_liters": { "type": ["number", "null"], "minimum": 0 },
+    "stackable": { "type": ["boolean", "null"] },
+    "divisible": { "type": ["boolean", "null"] },
+    "description": { "type": ["string", "null"] },
+    "gameStatus": {
+      "type": "string",
+      "enum": ["active", "disabled", "planned"]
+    },
+    "producedBy": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Block ids that produce this gas/fluid (e.g. O2/H2 Generator for hydrogen and oxygen)."
+    },
+    "consumedBy": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Block or item ids that consume this gas/fluid (hydrogen thrusters, O2/H2 Generator inputs, etc.)."
+    },
+    "storedIn": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Tank block ids that store this gas/fluid. Empty array when no storage block is available."
+    },
+    "locations": {
+      "type": ["object", "null"],
+      "description": "Natural occurrences — populated for environmental fluids (water bodies on planets). null for gases, which are produced in-game rather than mined.",
+      "required": ["planets", "asteroidFields"],
+      "properties": {
+        "planets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "biomes"],
+            "properties": {
+              "name": { "type": "string" },
+              "biomes": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        },
+        "asteroidFields": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "wiki": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Wiki URL. null when no dedicated page exists (e.g. hydrogen has no standalone wiki page — it is documented only through its consumer/producer pages)."
+    },
+    "dataGaps": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

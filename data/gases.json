@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-30",
+  "game": {
+    "name": "Space Engineers 2",
+    "stage": "Early Access",
+    "dataAsOf": "2026-04-30"
+  },
+  "sources": [
+    "https://spaceengineers2.wiki.gg/wiki/Oxygen",
+    "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_1.5_m",
+    "https://spaceengineers2.wiki.gg/wiki/O2_H2_Generator_5_m",
+    "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Tank_1.5_m",
+    "https://spaceengineers2.wiki.gg/wiki/Hydrogen_Thruster_0.5_m"
+  ],
+  "notes": "Gas resources referenced by blocks but never modeled as first-class entries. Neither gas has a published infobox: the Oxygen wiki page is prose-only (no mass/volume/stackable), and Hydrogen has no dedicated wiki page at all — its existence is implied through the O2/H2 Generator outputs and the Hydrogen Tank / Hydrogen Thruster consumer pages. Entries here exist primarily so the rest of the repo can reference `hydrogen` and `oxygen` by id instead of raw strings. Flow rates (per-second/unit) are captured on the consuming/producing blocks, not here. The wiki notes that environmental pressurization and airtight rooms are not yet implemented in the current alpha — so the oxygen mechanic is partially in place (suit oxygen, refill blocks) but not complete.",
+  "resources": [
+    {
+      "id": "hydrogen",
+      "displayName": "Hydrogen",
+      "type": "gas",
+      "mass_kg": null,
+      "volume_liters": null,
+      "stackable": null,
+      "divisible": null,
+      "description": "Gas produced by electrolysing ice (and eventually water) in an O2/H2 Generator. Consumed by Hydrogen Thrusters for propulsion and by the Jetpack Fuel Tank consumable. Stored in Hydrogen Tanks.",
+      "gameStatus": "active",
+      "producedBy": [
+        "o2_h2_generator_1_5_m",
+        "o2_h2_generator_5_m"
+      ],
+      "consumedBy": [
+        "hydrogen_thruster_0_5_m",
+        "hydrogen_thruster_2_m",
+        "hydrogen_thruster_2_5_m",
+        "hydrogen_thruster_7_5_m",
+        "jetpack_fuel_tank"
+      ],
+      "storedIn": [
+        "hydrogen_tank_1_5_m",
+        "hydrogen_tank_5_m",
+        "hydrogen_tank_12_5_m"
+      ],
+      "locations": null,
+      "wiki": null,
+      "dataGaps": [
+        "mass_kg",
+        "volume_liters",
+        "stackable",
+        "divisible",
+        "wiki (no dedicated wiki page exists — documented only via its producers/consumers)",
+        "unit-per-time for production and consumption rates is not consistently published on consumer/producer pages"
+      ]
+    },
+    {
+      "id": "oxygen",
+      "displayName": "Oxygen",
+      "type": "gas",
+      "mass_kg": null,
+      "volume_liters": null,
+      "stackable": null,
+      "divisible": null,
+      "description": "Gas required by the player's suit for survival in space and on airless celestial bodies. Produced by electrolysing ice (and eventually water) in an O2/H2 Generator. Consumed by the player suit when outside breathable atmosphere. Suit oxygen can be topped up via the Oxygen Recharge consumable, or by holding F at an O2/H2 Generator, Survival Kit, Medical Room, or Cockpit. Environmental pressurization and airtight rooms are not yet implemented in the current alpha.",
+      "gameStatus": "active",
+      "producedBy": [
+        "o2_h2_generator_1_5_m",
+        "o2_h2_generator_5_m"
+      ],
+      "consumedBy": [
+        "survival_kit_2_5_m",
+        "medical_room_5_m"
+      ],
+      "storedIn": [
+        "oxygen_tank_1_5_m"
+      ],
+      "locations": null,
+      "wiki": "https://spaceengineers2.wiki.gg/wiki/Oxygen",
+      "dataGaps": [
+        "mass_kg",
+        "volume_liters",
+        "stackable",
+        "divisible",
+        "wiki page is prose-only, no infobox with resource properties",
+        "environmental pressurization not yet implemented in the current alpha"
+      ]
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-04-28",
+  "version": "1.1.0",
+  "generatedAt": "2026-04-30",
   "game": {
     "name": "Space Engineers 2",
     "stage": "Early Access",
-    "dataAsOf": "2026-04-28"
+    "dataAsOf": "2026-04-30"
   },
   "notes": "Machine-readable index of every dataset in this repo. Consumers can fetch this single file to discover available datasets without scraping the directory tree. Each entry lists the path, dataset version, entry count, and the category/subcategory of blocks or items contained. Paths are repo-relative — prepend the raw-content URL to fetch. `totalEntries` is the sum across all datasets; useful as a cheap staleness signal.",
-  "totalEntries": 335,
+  "totalEntries": 338,
   "datasets": [
     {
       "id": "raw-resources",
@@ -17,6 +17,24 @@
       "description": "Ores, Ice, Stone — natural materials pulled from the world.",
       "version": "1.0.0",
       "entryCount": 15
+    },
+    {
+      "id": "gases",
+      "path": "data/gases.json",
+      "category": "resources",
+      "subcategory": "gases",
+      "description": "Gas resources referenced by blocks — Hydrogen, Oxygen.",
+      "version": "1.0.0",
+      "entryCount": 2
+    },
+    {
+      "id": "fluids",
+      "path": "data/fluids.json",
+      "category": "resources",
+      "subcategory": "fluids",
+      "description": "Environmental fluids — Water (planned, VS3).",
+      "version": "1.0.0",
+      "entryCount": 1
     },
     {
       "id": "refinery-products",

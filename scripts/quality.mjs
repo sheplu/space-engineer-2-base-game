@@ -85,6 +85,18 @@ for (const { path, record: rec } of registry.values()) {
   if (rec.fuel?.consumesId) {
     checkId(rec.fuel.consumesId, `${path}#${rec.id}.fuel.consumesId`);
   }
+  // gases/fluids cross-refs to block ids that produce/consume/store them
+  if (rec.type === "gas" || rec.type === "fluid") {
+    for (const bid of rec.producedBy ?? []) {
+      checkId(bid, `${path}#${rec.id}.producedBy`);
+    }
+    for (const bid of rec.consumedBy ?? []) {
+      checkId(bid, `${path}#${rec.id}.consumedBy`);
+    }
+    for (const bid of rec.storedIn ?? []) {
+      checkId(bid, `${path}#${rec.id}.storedIn`);
+    }
+  }
 }
 
 if (unresolved.length > 0) {

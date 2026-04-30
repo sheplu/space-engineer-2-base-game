@@ -15,18 +15,23 @@ const envelopeSchema = load("schemas/envelope.schema.json");
 const rawSchema = load("schemas/resource-raw.schema.json");
 const itemSchema = load("schemas/resource-item.schema.json");
 const blockSchema = load("schemas/resource-block.schema.json");
+const fluidGasSchema = load("schemas/resource-fluid-gas.schema.json");
 const indexSchema = load("schemas/index.schema.json");
 
 const validateEnvelope = ajv.compile(envelopeSchema);
 const validateRaw = ajv.compile(rawSchema);
 const validateItem = ajv.compile(itemSchema);
 const validateBlock = ajv.compile(blockSchema);
+const validateFluidGas = ajv.compile(fluidGasSchema);
 const validateIndex = ajv.compile(indexSchema);
 
 const index = load("index.json");
 
 const recordSchemaFor = (datasetId) => {
   if (datasetId === "raw-resources") return { kind: "raw", fn: validateRaw };
+  if (datasetId === "gases" || datasetId === "fluids") {
+    return { kind: "fluid-gas", fn: validateFluidGas };
+  }
   // Power cells live under data/blocks/power/ for folder-level grouping with
   // the battery blocks that consume them, but the records themselves are
   // items (no size_m/pcu), so they validate against the item schema.
